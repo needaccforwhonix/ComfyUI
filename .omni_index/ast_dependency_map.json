@@ -1,0 +1,8264 @@
+[
+  {
+    "file": "nodes.py",
+    "dependencies": [
+      "logging",
+      "PngInfo",
+      "times",
+      "supported_versions",
+      "sys",
+      "json",
+      "traceback",
+      "torch",
+      "random",
+      "comfy_api.version_list",
+      "PIL",
+      "io",
+      "comfy.sd",
+      "annotations",
+      "correctly.",
+      "comfy.samplers",
+      "hashlib",
+      "IO",
+      "comfy_config",
+      "math",
+      "comfy.utils",
+      "args",
+      "comfy_api.latest",
+      "comfy.comfy_types",
+      "node_helpers",
+      "comfy.diffusers_load",
+      "config_parser",
+      "os",
+      "folder_paths",
+      "PIL.PngImagePlugin",
+      "numpy",
+      "Image",
+      "comfy.cli_args",
+      "comfy_api.internal",
+      "comfy.clip_vision",
+      "latent_preview",
+      "__future__",
+      "time",
+      "comfy.controlnet",
+      "safetensors.torch",
+      "comfy.model_management",
+      "inspect",
+      "comfy.sample",
+      "importlib",
+      "comfyui_manager",
+      "register_versions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pytest.ini",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "protocol.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "QUANTIZATION.md",
+    "dependencies": [
+      "register_layout_op",
+      "QuantizedLayout",
+      "comfy.quant_ops"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "node_helpers.py",
+    "dependencies": [
+      "ImageFile",
+      "PIL",
+      "hashlib",
+      "comfy.cli_args",
+      "args",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfyui_version.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "latent_preview.py",
+    "dependencies": [
+      "logging",
+      "PIL",
+      "comfy.taesd.taesd",
+      "folder_paths",
+      "comfy.sd",
+      "comfy.model_management",
+      "VAE",
+      "TAESD",
+      "Image",
+      "comfy.cli_args",
+      "comfy.utils",
+      "args",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CODEOWNERS",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "cuda_malloc.py",
+    "dependencies": [
+      "os",
+      "ctypes",
+      "subprocess",
+      "comfy.cli_args",
+      "args",
+      "importlib.util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitattributes",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "folder_paths.py",
+    "dependencies": [
+      "logging",
+      "mimetypes",
+      "Literal",
+      "os",
+      "collections.abc",
+      "annotations",
+      "Collection",
+      "comfy.cli_args",
+      "args",
+      "__future__",
+      "time",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "manager_requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "hook_breaker_ac10a0.py",
+    "dependencies": [
+      "comfy.model_management"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "execution.py",
+    "dependencies": [
+      "logging",
+      "comfy_execution.graph",
+      "heapq",
+      "List",
+      "set_preview_method",
+      "copy",
+      "sys",
+      "traceback",
+      "torch",
+      "io",
+      "comfy_execution.graph_utils",
+      "GraphBuilder",
+      "comfy_execution.utils",
+      "threading",
+      "comfy_execution.progress",
+      "comfy_api.latest",
+      "comfy_execution.caching",
+      "nodes",
+      "_ComfyNodeInternal",
+      "comfy_api.internal",
+      "latent_preview",
+      "get_progress_state",
+      "time",
+      "typing",
+      "asyncio",
+      "CurrentNodeContext",
+      "Enum",
+      "comfy.model_management",
+      "inspect",
+      "validate_node_input",
+      "comfy_execution.validation",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [
+      "and"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "main.py",
+    "dependencies": [
+      "logging",
+      "comfyui_version",
+      "cuda_malloc",
+      "protocol",
+      "server",
+      "sys",
+      "app.database.db",
+      "app.assets.scanner",
+      "shutil",
+      "comfy_execution.utils",
+      "app.logger",
+      "hook_breaker_ac10a0",
+      "seed_assets",
+      "threading",
+      "execution",
+      "comfy.utils",
+      "comfy_execution.progress",
+      "args",
+      "comfy.options",
+      "feature_flags",
+      "os",
+      "nodes",
+      "folder_paths",
+      "new_updater",
+      "webbrowser",
+      "comfy_api",
+      "comfy.cli_args",
+      "itertools",
+      "get_executing_context",
+      "get_progress_state",
+      "time",
+      "init_db",
+      "asyncio",
+      "BinaryEventTypes",
+      "comfy.model_management",
+      "setup_logger",
+      "utils.extra_config",
+      "gc",
+      "comfyui_manager",
+      "importlib.util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "new_updater.py",
+    "dependencies": [
+      "shutil",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "extra_model_paths.yaml.example",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "server.py",
+    "dependencies": [
+      "logging",
+      "socket",
+      "CustomNodeManager",
+      "PngInfo",
+      "app.subgraph_manager",
+      "ModelFileManager",
+      "app.user_manager",
+      "SubgraphManager",
+      "register_assets_system",
+      "comfyui_version",
+      "protocol",
+      "middleware.cache_middleware",
+      "urllib",
+      "aiohttp",
+      "web",
+      "sys",
+      "json",
+      "traceback",
+      "app.model_manager",
+      "of",
+      "app.custom_node_manager",
+      "app.assets.scanner",
+      "FrontendManager",
+      "app.frontend_management",
+      "PIL",
+      "io",
+      "uuid",
+      "app.assets.api.routes",
+      "execution",
+      "glob",
+      "seed_assets",
+      "comfy.utils",
+      "__version__",
+      "args",
+      "node_helpers",
+      "Optional",
+      "nodes",
+      "os",
+      "feature_flags",
+      "InternalRoutes",
+      "folder_paths",
+      "_ComfyNodeInternal",
+      "BytesIO",
+      "ipaddress",
+      "comfy_api",
+      "PIL.PngImagePlugin",
+      "JobStatus",
+      "api_server.routes.internal.internal_routes",
+      "UserManager",
+      "Image",
+      "comfy.cli_args",
+      "comfy_api.internal",
+      "cache_control",
+      "time",
+      "struct",
+      "typing",
+      "asyncio",
+      "mimetypes",
+      "comfy.model_management",
+      "BinaryEventTypes",
+      "ssl",
+      "comfy_execution.jobs",
+      "comfyui_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "alembic.ini",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/feature_flags.py",
+    "dependencies": [
+      "Any",
+      "args",
+      "comfy.cli_args",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/version_list.py",
+    "dependencies": [
+      "ComfyAPIBase",
+      "ComfyAPIAdapter_v0_0_1",
+      "comfy_api.v0_0_2",
+      "ComfyAPIAdapter_v0_0_2",
+      "comfy_api.v0_0_1",
+      "ComfyAPI_latest",
+      "comfy_api.internal",
+      "comfy_api.latest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/generate_api_stubs.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "comfy_api.version_list",
+      "AsyncToSyncConverter",
+      "supported_versions",
+      "importlib",
+      "comfy_api.internal.async_to_sync",
+      "sys",
+      "modules",
+      "create_sync_class",
+      "traceback"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/util.py",
+    "dependencies": [
+      "comfy_api.latest._util",
+      "VideoCodec"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/v0_0_1/__init__.py",
+    "dependencies": [
+      "ComfyAPISyncStub",
+      "comfy_api.v0_0_1.generated.ComfyAPISyncStub",
+      "Type",
+      "comfy_api.v0_0_2",
+      "comfy_api.internal.async_to_sync",
+      "create_sync_class",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/v0_0_1/generated/ComfyAPISyncStub.pyi",
+    "dependencies": [
+      "ComfyAPIAdapter_v0_0_1",
+      "Any",
+      "comfy_api.v0_0_1",
+      "Tensor",
+      "Image",
+      "PIL.Image",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/input/__init__.py",
+    "dependencies": [
+      "comfy_api.latest._input"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/input/basic_types.py",
+    "dependencies": [
+      "comfy_api.latest._input.basic_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/input/video_types.py",
+    "dependencies": [
+      "VideoInput",
+      "comfy_api.latest._input.video_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/__init__.py",
+    "dependencies": [
+      ".",
+      "_ui_public",
+      "._input",
+      "ImageInput",
+      "PIL",
+      "._util",
+      "comfy_execution.utils",
+      "annotations",
+      "comfy_execution.progress",
+      "args",
+      "TYPE_CHECKING",
+      "VideoFromFile",
+      "ComfyAPIBase",
+      "ABC",
+      "._input_impl",
+      "_io_public",
+      "VideoCodec",
+      "numpy",
+      "comfy_api.latest.generated.ComfyAPISyncStub",
+      "Image",
+      "comfy.cli_args",
+      "create_sync_class",
+      "comfy_api.internal",
+      "get_executing_context",
+      "ProxiedSingleton",
+      "__future__",
+      "get_progress_state",
+      "typing",
+      "abc",
+      "comfy_api.internal.singleton",
+      "comfy_api.internal.async_to_sync"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_io.py",
+    "dependencies": [
+      "copy",
+      "collections",
+      "comfy.model_patcher",
+      "ControlNet",
+      "torch",
+      "MESH",
+      "Any",
+      "._util",
+      "comfy.sd",
+      "comfy_execution.graph_utils",
+      "annotations",
+      "Iterable",
+      "ClipVisionModel",
+      "CFGGuider",
+      "comfy.samplers",
+      "StyleModel",
+      "spandrel",
+      "Counter",
+      "ABC",
+      "ImageModelDescriptor",
+      "VideoInput",
+      "ModelPatcher",
+      "CLIP",
+      "ExecutionBlocker",
+      "Output",
+      "comfy_api.internal",
+      "comfy.clip_vision",
+      "__future__",
+      "comfy.controlnet",
+      "typing",
+      "dataclasses",
+      "NotRequired",
+      "Enum",
+      "abc",
+      "collections.abc",
+      "comfy.hooks",
+      "inspect",
+      "typing_extensions",
+      "comfy_api.input",
+      "asdict",
+      "HookGroup",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_io_public.py",
+    "dependencies": [
+      "._io"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_ui_public.py",
+    "dependencies": [
+      "._ui"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_ui.py",
+    "dependencies": [
+      "PngInfo",
+      "json",
+      "torch",
+      "random",
+      "PIL",
+      "io",
+      "uuid",
+      "annotations",
+      "args",
+      "._io",
+      "ComfyNode",
+      "os",
+      "folder_paths",
+      "BytesIO",
+      "PIL.PngImagePlugin",
+      "numpy",
+      "Image",
+      "comfy.cli_args",
+      "__future__",
+      "av",
+      "torchaudio"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_input/__init__.py",
+    "dependencies": [
+      "VideoInput",
+      ".video_types",
+      ".basic_types",
+      "ImageInput"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_input/basic_types.py",
+    "dependencies": [
+      "TypedDict",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_input/video_types.py",
+    "dependencies": [
+      "typing",
+      "Optional",
+      "av",
+      "fractions",
+      "ABC",
+      "io",
+      ".._util",
+      "abc",
+      "annotations",
+      "Fraction",
+      "__future__",
+      "VideoContainer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_util/__init__.py",
+    "dependencies": [
+      "VOXEL",
+      ".image_types",
+      ".geometry_types",
+      "SVG",
+      ".video_types",
+      "VideoContainer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_util/geometry_types.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_util/image_types.py",
+    "dependencies": [
+      "BytesIO",
+      "io"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_util/video_types.py",
+    "dependencies": [
+      "dataclasses",
+      "Optional",
+      "typing",
+      "fractions",
+      "Enum",
+      "dataclass",
+      "annotations",
+      "enum",
+      ".._input",
+      "Fraction",
+      "__future__",
+      "ImageInput"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/generated/ComfyAPISyncStub.pyi",
+    "dependencies": [
+      "Any",
+      "Tensor",
+      "Image",
+      "ComfyAPI_latest",
+      "comfy_api.latest",
+      "PIL.Image",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_input_impl/__init__.py",
+    "dependencies": [
+      "VideoFromFile",
+      ".video_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/latest/_input_impl/video_types.py",
+    "dependencies": [
+      "AudioInput",
+      ".._util",
+      "json",
+      "Fraction",
+      "torch",
+      "InputContainer",
+      "fractions",
+      "io",
+      "annotations",
+      "SubtitleStream",
+      "math",
+      "Optional",
+      "numpy",
+      "av.subtitles.stream",
+      "__future__",
+      "typing",
+      "av",
+      "av.container",
+      ".._input",
+      "VideoContainer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/torch_helpers/__init__.py",
+    "dependencies": [
+      "set_torch_compile_wrapper",
+      ".torch_compile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/torch_helpers/torch_compile.py",
+    "dependencies": [
+      "torch",
+      "annotations",
+      "ModelPatcher",
+      "comfy.patcher_extension",
+      "WrapperExecutor",
+      "comfy.utils",
+      "WrappersMP",
+      "comfy.model_patcher",
+      "__future__",
+      "TYPE_CHECKING",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/input_impl/__init__.py",
+    "dependencies": [
+      "VideoFromFile",
+      "comfy_api.latest._input_impl"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/input_impl/video_types.py",
+    "dependencies": [
+      "comfy_api.latest._input_impl.video_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/internal/__init__.py",
+    "dependencies": [
+      "asyncio",
+      "dataclasses",
+      ".api_registry",
+      "Callable",
+      "asdict",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/internal/singleton.py",
+    "dependencies": [
+      "TypeVar",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/internal/api_registry.py",
+    "dependencies": [
+      "comfy_api.internal.singleton",
+      "version",
+      "packaging",
+      "NamedTuple",
+      "ProxiedSingleton",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/internal/async_to_sync.py",
+    "dependencies": [
+      "logging",
+      "get_type_hints",
+      "generation.",
+      "concurrent.futures",
+      "detected",
+      "traceback",
+      "Any",
+      "annotations",
+      "functools",
+      "threading",
+      "Optional",
+      "os",
+      "type_name",
+      "info.",
+      "ProxiedSingleton",
+      "contextvars",
+      "__future__",
+      "typing",
+      "asyncio",
+      "textwrap",
+      "Enum",
+      "comfy_api.internal.singleton",
+      "inspect",
+      "statements",
+      ")):\n                processed.append(line)\n                continue\n\n            # Fix method signatures missing return types\n            if (\n                line.strip().startswith(",
+      "if",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/util/__init__.py",
+    "dependencies": [
+      "comfy_api.latest._util",
+      "VideoContainer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/util/video_types.py",
+    "dependencies": [
+      "comfy_api.latest._util.video_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/v0_0_2/__init__.py",
+    "dependencies": [
+      "ComfyAPISyncStub",
+      "Type",
+      "io",
+      "comfy_api.internal.async_to_sync",
+      "create_sync_class",
+      "comfy_api.latest",
+      "comfy_api.v0_0_2.generated.ComfyAPISyncStub",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api/v0_0_2/generated/ComfyAPISyncStub.pyi",
+    "dependencies": [
+      "Any",
+      "comfy_api.v0_0_2",
+      "ComfyAPIAdapter_v0_0_2",
+      "Tensor",
+      "Image",
+      "PIL.Image",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "middleware/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "middleware/cache_middleware.py",
+    "dependencies": [
+      "aiohttp",
+      "web",
+      "Callable",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "script_examples/websockets_api_example.py",
+    "dependencies": [
+      "PIL",
+      "io",
+      "uuid",
+      "urllib.request",
+      "websocket",
+      "Image",
+      "json",
+      "urllib.parse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "script_examples/basic_api_example.py",
+    "dependencies": [
+      "json",
+      "urllib",
+      "request"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "script_examples/websockets_api_example_ws_images.py",
+    "dependencies": [
+      "PIL",
+      "io",
+      "uuid",
+      "urllib.request",
+      "websocket",
+      "Image",
+      "json",
+      "urllib.parse"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nvidia_base_files/run_nvidia_gpu_fast_fp16_accumulation.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nvidia_base_files/run_nvidia_gpu.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nvidia_base_files/README_VERY_IMPORTANT.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nvidia_base_files/run_cpu.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nvidia_base_files/advanced/run_nvidia_gpu_disable_api_nodes.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/update_windows/update.py",
+    "dependencies": [
+      "filecmp",
+      "shutil",
+      "os",
+      "subprocess",
+      "sys",
+      "pygit2",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/update_windows/update_comfyui.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/update_windows/update_comfyui_stable.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_nightly_base_files/run_nvidia_gpu_fast.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_amd_base_files/run_amd_gpu_disable_smart_memory.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_amd_base_files/run_amd_gpu.bat",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".ci/windows_amd_base_files/README_VERY_IMPORTANT.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/user_manager.py",
+    "dependencies": [
+      "logging",
+      ".app_settings",
+      "urllib",
+      "aiohttp",
+      "TypedDict",
+      "web",
+      "re",
+      "json",
+      "shutil",
+      "uuid",
+      "annotations",
+      "glob",
+      "args",
+      "os",
+      "folder_paths",
+      "parse",
+      "comfy.cli_args",
+      "__future__",
+      "typing",
+      "AppSettings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/frontend_management.py",
+    "dependencies": [
+      "logging",
+      "utils.install_util",
+      "Path",
+      "get_missing_requirements_message",
+      "aiohttp",
+      "comfyui_workflow_templates",
+      "web",
+      "sys",
+      "re",
+      "zipfile",
+      "tempfile",
+      "cached_property",
+      "comfyui_embedded_docs",
+      "annotations",
+      "functools",
+      "app.logger",
+      "requests",
+      "DEFAULT_VERSION_STRING",
+      "os",
+      "importlib.metadata",
+      "dataclass",
+      "version",
+      "comfy.cli_args",
+      "argparse",
+      "__future__",
+      "typing",
+      "dataclasses",
+      "NotRequired",
+      "comfyui_frontend_package",
+      "pathlib",
+      "Dict",
+      "importlib",
+      "typing_extensions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/app_settings.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "aiohttp",
+      "web",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/custom_node_manager.py",
+    "dependencies": [
+      "logging",
+      "utils.json_util",
+      "os",
+      "folder_paths",
+      "annotations",
+      "functools",
+      "aiohttp",
+      "lru_cache",
+      "web",
+      "glob",
+      "json",
+      "merge_json_recursive",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/subgraph_manager.py",
+    "dependencies": [
+      "os",
+      "folder_paths",
+      "annotations",
+      "aiohttp",
+      "TypedDict",
+      "web",
+      "glob",
+      "hashlib",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/model_manager.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "PIL",
+      "io",
+      "folder_paths",
+      "BytesIO",
+      "map_legacy",
+      "annotations",
+      "aiohttp",
+      "web",
+      "base64",
+      "glob",
+      "Image",
+      "comfy.utils",
+      "json",
+      "__future__",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/logger.py",
+    "dependencies": [
+      "logging",
+      "io",
+      "deque",
+      "collections",
+      "threading",
+      "sys",
+      "datetime"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/helpers.py",
+    "dependencies": [
+      "Literal",
+      "os",
+      "contextlib",
+      "Path",
+      "folder_paths",
+      "pathlib",
+      "aiohttp",
+      "web",
+      "datetime",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/manager.py",
+    "dependencies": [
+      "app.assets.api",
+      "schemas_out",
+      "app.assets.database.queries",
+      "Sequence",
+      "create_session",
+      "app.database.db",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/hashing.py",
+    "dependencies": [
+      "asyncio",
+      "os",
+      "blake3",
+      "IO",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/scanner.py",
+    "dependencies": [
+      "logging",
+      "seed_from_paths_batch",
+      "os",
+      "contextlib",
+      "folder_paths",
+      "app.assets.database.tags",
+      "app.assets.database.models",
+      "add_missing_tag_for_asset_id",
+      "create_session",
+      "Asset",
+      "app.assets.helpers",
+      "app.assets.database.bulk_ops",
+      "sqlalchemy",
+      "app.database.db",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/database/bulk_ops.py",
+    "dependencies": [
+      "os",
+      "Session",
+      "uuid",
+      "utcnow",
+      "sqlalchemy.dialects",
+      "Iterable",
+      "sqlalchemy.orm",
+      "Asset",
+      "sqlite",
+      "app.assets.helpers",
+      "sqlalchemy",
+      "app.assets.database.models",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/database/models.py",
+    "dependencies": [
+      "Mapped",
+      "Any",
+      "uuid",
+      "utcnow",
+      "annotations",
+      "app.database.models",
+      "sqlalchemy.orm",
+      "app.assets.helpers",
+      "to_dict",
+      "sqlalchemy",
+      "datetime",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/database/tags.py",
+    "dependencies": [
+      "Tag",
+      "Session",
+      "sqlalchemy.dialects",
+      "Iterable",
+      "sqlalchemy.orm",
+      "app.assets.helpers",
+      "sqlite",
+      "sqlalchemy",
+      "normalize_tags",
+      "app.assets.database.models",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/database/queries.py",
+    "dependencies": [
+      "Decimal",
+      "Session",
+      "defaultdict",
+      "escape_like_prefix",
+      "Sequence",
+      "decimal",
+      "sqlalchemy.orm",
+      "collections",
+      "select",
+      "Asset",
+      "app.assets.helpers",
+      "sqlalchemy",
+      "app.assets.database.models",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/api/schemas_in.py",
+    "dependencies": [
+      "pydantic",
+      "Any",
+      "uuid",
+      "json",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/api/schemas_out.py",
+    "dependencies": [
+      "pydantic",
+      "Any",
+      "BaseModel",
+      "datetime",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/assets/api/routes.py",
+    "dependencies": [
+      "logging",
+      "pydantic",
+      "app.assets.api",
+      "uuid",
+      "app",
+      "ValidationError",
+      "app.assets.manager",
+      "user_manager",
+      "web",
+      "get_query_dict",
+      "aiohttp",
+      "app.assets.helpers",
+      "schemas_in"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/database/db.py",
+    "dependencies": [
+      "logging",
+      "utils.install_util",
+      "MigrationContext",
+      "create_engine",
+      "get_missing_requirements_message",
+      "sqlalchemy",
+      "log_startup_warning",
+      "shutil",
+      "alembic.runtime.migration",
+      "sessionmaker",
+      "app.logger",
+      "args",
+      "alembic",
+      "os",
+      "comfy.cli_args",
+      "command",
+      "ScriptDirectory",
+      "alembic.script",
+      "sqlalchemy.orm",
+      "Config",
+      "alembic.config"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "app/database/models.py",
+    "dependencies": [
+      "Any",
+      "sqlalchemy.orm",
+      "datetime",
+      "DeclarativeBase",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/model_patches/put_model_patches_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/diffusion_models/put_diffusion_model_files_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/hypernetworks/put_hypernetworks_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/vae_approx/put_taesd_encoder_pth_and_taesd_decoder_pth_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/clip_vision/put_clip_vision_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/embeddings/put_embeddings_or_textual_inversion_concepts_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/unet/put_unet_files_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/diffusers/put_diffusers_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/upscale_models/put_esrgan_and_other_upscale_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/vae/put_vae_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/loras/put_loras_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/gligen/put_gligen_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/text_encoders/put_text_encoder_files_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v2-inpainting-inference.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v1-inpainting-inference.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v2-inference-v_fp32.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v2-inference_fp32.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v1-inference.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/anything_v3.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v1-inference_fp16.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v2-inference-v.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v1-inference_clip_skip_2_fp16.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v2-inference.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/configs/v1-inference_clip_skip_2.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/photomaker/put_photomaker_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/controlnet/put_controlnets_and_t2i_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/style_models/put_t2i_style_model_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/checkpoints/put_checkpoints_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/clip/put_clip_or_text_encoder_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/audio_encoders/put_audio_encoder_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "models/latent_upscale_models/put_latent_upscale_models_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_kling.py",
+    "dependencies": [
+      "logging",
+      "comfy_api_nodes.apis.kling_api",
+      "typing_extensions",
+      "override",
+      "IO",
+      "comfy_api_nodes.util",
+      "re",
+      "comfy_api.latest",
+      "comfy_api_nodes.apis",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/redocly-dev.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_ideogram.py",
+    "dependencies": [
+      "PIL",
+      "torch",
+      "io",
+      "BytesIO",
+      "numpy",
+      "typing_extensions",
+      "comfy_api_nodes.util",
+      "IO",
+      "Image",
+      "comfy_api.latest",
+      "comfy_api_nodes.apis",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_sora.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "torch",
+      "BaseModel",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_luma.py",
+    "dependencies": [
+      "Optional",
+      "comfy_api_nodes.apis.luma_api",
+      "torch",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_rodin.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "os",
+      "ComfyExtension",
+      "cleandoc",
+      "folder_paths",
+      "io",
+      "BytesIO",
+      "PIL",
+      "comfy_api_nodes.apis.rodin_api",
+      "inspect",
+      "typing_extensions",
+      "Image",
+      "math",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_bfl.py",
+    "dependencies": [
+      "pydantic",
+      "torch",
+      "BaseModel",
+      "typing_extensions",
+      "IO",
+      "comfy_api_nodes.apis.bfl_api",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_recraft.py",
+    "dependencies": [
+      "Optional",
+      "PIL",
+      "io",
+      "ProgressBar",
+      "comfy_extras.nodes_images",
+      "BytesIO",
+      "UnidentifiedImageError",
+      "SVG",
+      "aiohttp",
+      "typing_extensions",
+      "override",
+      "IO",
+      "comfy_api_nodes.apis.recraft_api",
+      "comfy.utils",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_topaz.py",
+    "dependencies": [
+      "io",
+      "BytesIO",
+      "aiohttp",
+      "topaz_api",
+      "typing_extensions",
+      "IO",
+      "comfy_api_nodes.util",
+      "builtins",
+      "comfy_api.latest",
+      "comfy_api_nodes.apis",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_tripo.py",
+    "dependencies": [
+      "get_output_directory",
+      "Optional",
+      "os",
+      "torch",
+      "folder_paths",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.apis.tripo_api",
+      "comfy_api_nodes.util",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_vidu.py",
+    "dependencies": [
+      "typing_extensions",
+      "comfy_api_nodes.apis.vidu",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_openai.py",
+    "dependencies": [
+      "comfy_api_nodes.apis.openai_api",
+      "os",
+      "comfy_api_nodes.apis",
+      "PIL",
+      "Enum",
+      "folder_paths",
+      "io",
+      "BytesIO",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "base64",
+      "Image",
+      "IO",
+      "comfy_api_nodes.util",
+      "comfy_api.latest",
+      "enum",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_meshy.py",
+    "dependencies": [
+      "get_output_directory",
+      "os",
+      "folder_paths",
+      "typing_extensions",
+      "IO",
+      "comfy_api_nodes.apis.meshy",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/mapper_utils.py",
+    "dependencies": [
+      "pydantic",
+      "comfy.comfy_types.node_typing",
+      "PydanticUndefined",
+      "pydantic_core",
+      "Enum",
+      "pydantic.fields",
+      "BaseModel",
+      "IO",
+      "FieldInfo",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_minimax.py",
+    "dependencies": [
+      "Optional",
+      "comfy_api_nodes.apis.minimax_api",
+      "torch",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_wan.py",
+    "dependencies": [
+      "pydantic",
+      "BaseModel",
+      "typing_extensions",
+      "IO",
+      "re",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_bytedance.py",
+    "dependencies": [
+      "logging",
+      "torch",
+      "comfy_api_nodes.apis.bytedance_api",
+      "typing_extensions",
+      "IO",
+      "math",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/canary.py",
+    "dependencies": [
+      "av"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_runway.py",
+    "dependencies": [
+      "comfy_api_nodes.apis",
+      "Enum",
+      "typing_extensions",
+      "comfy_api_nodes.util",
+      "IO",
+      "comfy_api.latest",
+      "enum",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_gemini.py",
+    "dependencies": [
+      "Literal",
+      "os",
+      "comfy_api_nodes.apis.gemini_api",
+      "Enum",
+      "folder_paths",
+      "io",
+      "BytesIO",
+      "typing_extensions",
+      "override",
+      "base64",
+      "IO",
+      "comfy_api_nodes.util",
+      "comfy_api.latest",
+      "enum",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_stability.py",
+    "dependencies": [
+      "Optional",
+      "comfy_api_nodes.apis.stability_api",
+      "ComfyExtension",
+      "cleandoc",
+      "Enum",
+      "io",
+      "BytesIO",
+      "inspect",
+      "typing_extensions",
+      "override",
+      "base64",
+      "enum",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_veo2.py",
+    "dependencies": [
+      "io",
+      "BytesIO",
+      "typing_extensions",
+      "base64",
+      "IO",
+      "comfy_api_nodes.apis.veo_api",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_moonvalley.py",
+    "dependencies": [
+      "logging",
+      "typing_extensions",
+      "comfy_api_nodes.util",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.apis",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/redocly.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_ltxv.py",
+    "dependencies": [
+      "pydantic",
+      "io",
+      "BytesIO",
+      "BaseModel",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/nodes_pixverse.py",
+    "dependencies": [
+      "torch",
+      "typing_extensions",
+      "comfy_api_nodes.apis.pixverse_api",
+      "IO",
+      "comfy_api.latest",
+      "comfy_api_nodes.util",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/__init__.py",
+    "dependencies": [
+      "UUID",
+      "pydantic",
+      "Enum",
+      "Any",
+      "uuid",
+      "datetime",
+      "annotations",
+      "enum",
+      "AnyUrl",
+      "date",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/pixverse_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/kling_api.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/tripo_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/recraft_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/minimax_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "BaseModel",
+      "enum",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/openai_api.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/rodin_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/gemini_api.py",
+    "dependencies": [
+      "pydantic",
+      "Enum",
+      "Any",
+      "datetime",
+      "BaseModel",
+      "date",
+      "enum",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/vidu.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/bytedance_api.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic",
+      "Literal",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/luma_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/meshy.py",
+    "dependencies": [
+      "pydantic",
+      "Input",
+      "BaseModel",
+      "TypedDict",
+      "comfy_api.latest",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/bfl_api.py",
+    "dependencies": [
+      "pydantic",
+      "Enum",
+      "Any",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/stability_api.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "Enum",
+      "annotations",
+      "BaseModel",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/veo_api.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic",
+      "Optional",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/apis/topaz_api.py",
+    "dependencies": [
+      "BaseModel",
+      "pydantic",
+      "Optional",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/request_logger.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "Any",
+      "folder_paths",
+      "hashlib",
+      "re",
+      "json",
+      "datetime",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/__init__.py",
+    "dependencies": [
+      ".client",
+      ".validation_utils",
+      ".download_helpers",
+      "get_fs_object_size",
+      ".conversions",
+      "._helpers",
+      ".upload_helpers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/download_helpers.py",
+    "dependencies": [
+      "InputImpl",
+      "contextlib",
+      "Path",
+      "aiohttp",
+      ".",
+      "torch",
+      "io",
+      "uuid",
+      "request_logger",
+      "IO",
+      "ApiServerError",
+      "comfy_api.latest",
+      "urllib.parse",
+      "aiohttp.client_exceptions",
+      ".client",
+      "BytesIO",
+      ".conversions",
+      "ClientError",
+      "_diagnose_connectivity",
+      "typing",
+      "asyncio",
+      "bytesio_to_image_tensor",
+      "pathlib",
+      "._helpers",
+      ".common_exceptions",
+      "urljoin"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/validation_utils.py",
+    "dependencies": [
+      "logging",
+      "comfy_api.latest",
+      "Input",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/common_exceptions.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/conversions.py",
+    "dependencies": [
+      "logging",
+      "mimetypes",
+      "mimetype_to_extension",
+      "av",
+      "Input",
+      "io",
+      "PIL",
+      "uuid",
+      "BytesIO",
+      "._helpers",
+      "numpy",
+      "base64",
+      "Image",
+      "math",
+      "common_upscale",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/client.py",
+    "dependencies": [
+      "logging",
+      "contextlib",
+      "aiohttp",
+      ".",
+      "json",
+      "PromptServer",
+      "utils",
+      "io",
+      "Any",
+      "uuid",
+      "request_logger",
+      "IO",
+      "ApiServerError",
+      "Callable",
+      "comfy_api.latest",
+      "urllib.parse",
+      "aiohttp.client_exceptions",
+      "dataclass",
+      "BytesIO",
+      "ClientError",
+      "time",
+      "typing",
+      "asyncio",
+      "dataclasses",
+      "pydantic",
+      "Enum",
+      "comfy",
+      "collections.abc",
+      "._helpers",
+      ".common_exceptions",
+      "urljoin",
+      "BaseModel",
+      "server",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/_helpers.py",
+    "dependencies": [
+      "contextlib",
+      "re",
+      "io",
+      "IO",
+      "Callable",
+      "args",
+      "comfy_api.latest",
+      "os",
+      "BytesIO",
+      "URL",
+      "comfy.cli_args",
+      "processing_interrupted",
+      "yarl",
+      "time",
+      "asyncio",
+      "collections.abc",
+      "comfy.model_management",
+      ".common_exceptions",
+      "ProcessingInterrupted"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_api_nodes/util/upload_helpers.py",
+    "dependencies": [
+      "logging",
+      "contextlib",
+      "aiohttp",
+      ".",
+      "torch",
+      "io",
+      "uuid",
+      "request_logger",
+      "IO",
+      "ApiServerError",
+      "comfy_api.latest",
+      "urllib.parse",
+      "urlparse",
+      ".client",
+      "BytesIO",
+      ".conversions",
+      "time",
+      "asyncio",
+      "pydantic",
+      "._helpers",
+      ".common_exceptions",
+      "BaseModel",
+      "is_processing_interrupted"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/services/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/services/terminal_service.py",
+    "dependencies": [
+      "app.logger",
+      "shutil",
+      "on_flush",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/routes/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/routes/internal/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/routes/internal/internal_routes.py",
+    "dependencies": [
+      "TerminalService",
+      "Optional",
+      "folder_names_and_paths",
+      "os",
+      "folder_paths",
+      "api_server.services.terminal_service",
+      "app.logger",
+      "aiohttp",
+      "web",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/routes/internal/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "api_server/utils/file_operations.py",
+    "dependencies": [
+      "os",
+      "List",
+      "typing_extensions",
+      "TypeGuard",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_canny.py",
+    "dependencies": [
+      "ComfyExtension",
+      "comfy.model_management",
+      "kornia.filters",
+      "typing_extensions",
+      "canny",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_logic.py",
+    "dependencies": [
+      "ComfyExtension",
+      "_io",
+      "annotations",
+      "TypedDict",
+      "typing_extensions",
+      "comfy_api.latest",
+      "__future__",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_string.py",
+    "dependencies": [
+      "ComfyExtension",
+      "typing_extensions",
+      "re",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_optimalsteps.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "numpy",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_mahiro.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "torch.nn.functional",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_model_advanced.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "comfy.sd",
+      "comfy.latent_formats",
+      "comfy.model_sampling",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_video.py",
+    "dependencies": [
+      "Optional",
+      "av",
+      "os",
+      "fractions",
+      "ComfyExtension",
+      "folder_paths",
+      "annotations",
+      "typing_extensions",
+      "override",
+      "comfy.cli_args",
+      "json",
+      "args",
+      "Fraction",
+      "comfy_api.latest",
+      "__future__",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_model_downscale.py",
+    "dependencies": [
+      "ComfyExtension",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_stable_cascade.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_nop.py",
+    "dependencies": [
+      "comfy_api.latest",
+      "typing_extensions",
+      "override",
+      "ComfyExtension"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_stable3d.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_video_model.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "folder_paths",
+      "comfy.sd",
+      "comfy_extras.nodes_model_merging",
+      "comfy.utils",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hidream.py",
+    "dependencies": [
+      "ComfyExtension",
+      "folder_paths",
+      "comfy.sd",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_edit_model.py",
+    "dependencies": [
+      "node_helpers",
+      "ComfyExtension",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_flux.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "math",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_preview_any.py",
+    "dependencies": [
+      "json",
+      "comfy.comfy_types.node_typing",
+      "IO"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hunyuan.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "folder_paths",
+      "comfy.model_management",
+      "LatentUpsampler",
+      "typing_extensions",
+      "comfy.ldm.hunyuan_video.upsampler",
+      "comfy.ldm.lightricks.latent_upsampler",
+      "json",
+      "comfy_api.latest",
+      "override",
+      "HunyuanVideo15SRModel"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_perpneg.py",
+    "dependencies": [
+      "node_helpers",
+      "ComfyExtension",
+      "comfy.model_management",
+      "comfy.samplers",
+      "override",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "comfy.sampler_helpers",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_rebatch.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_post_processing.py",
+    "dependencies": [
+      "ComfyExtension",
+      "reshape_latent_to",
+      "torch.nn.functional",
+      "TypedDict",
+      "override",
+      "torch",
+      "PIL",
+      "math",
+      "comfy.utils",
+      "comfy_api.latest",
+      "node_helpers",
+      "MAX_RESOLUTION",
+      "nodes",
+      "numpy",
+      "Image",
+      "typing",
+      "Enum",
+      "comfy_extras.nodes_latent",
+      "comfy.model_management",
+      "typing_extensions",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_controlnet.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "UNION_CONTROLNET_TYPES",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "comfy.cldm.control_types",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_model_merging.py",
+    "dependencies": [
+      "os",
+      "folder_paths",
+      "comfy.sd",
+      "comfy.model_base",
+      "comfy.model_management",
+      "comfy.model_sampling",
+      "comfy.cli_args",
+      "comfy.utils",
+      "json",
+      "args",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_cfg.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_pixart.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_photomaker.py",
+    "dependencies": [
+      "comfy.ops",
+      "ComfyExtension",
+      "comfy.clip_model",
+      "folder_paths",
+      "typing_extensions",
+      "override",
+      "torch.nn",
+      "comfy.clip_vision",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_ace.py",
+    "dependencies": [
+      "node_helpers",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hunyuan3d.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "os",
+      "MESH",
+      "ComfyExtension",
+      "torch",
+      "folder_paths",
+      "comfy_api.latest._util",
+      "comfy.model_management",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "comfy.cli_args",
+      "it",
+      "json",
+      "args",
+      "comfy_api.latest",
+      "get_1d_sincos_pos_embed_from_grid_torch",
+      "struct"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_latent.py",
+    "dependencies": [
+      "logging",
+      "comfy_extras.nodes_post_processing",
+      "nodes",
+      "ComfyExtension",
+      "typing_extensions",
+      "override",
+      "comfy.utils",
+      "comfy_api.latest",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_gits.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "numpy",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_audio.py",
+    "dependencies": [
+      "node_helpers",
+      "logging",
+      "av",
+      "os",
+      "ComfyExtension",
+      "folder_paths",
+      "comfy.model_management",
+      "annotations",
+      "typing_extensions",
+      "override",
+      "torchaudio",
+      "hashlib",
+      "comfy_api.latest",
+      "__future__",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lt_audio.py",
+    "dependencies": [
+      "ComfyExtension",
+      "folder_paths",
+      "comfy.model_management",
+      "comfy.ldm.lightricks.vae.audio_vae",
+      "comfy.utils",
+      "comfy_api.latest",
+      "AudioVAE",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_morphology.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "kornia.color",
+      "comfy.model_management",
+      "typing_extensions",
+      "dilation",
+      "comfy_api.latest",
+      "kornia.morphology",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_align_your_steps.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "numpy",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_eps.py",
+    "dependencies": [
+      "sigma_to_half_log_snr",
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy.k_diffusion.sampling",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_wan.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "comfy.clip_vision",
+      "ComfyExtension",
+      "comfy.latent_formats",
+      "comfy.model_management",
+      "Tuple",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "math",
+      "json",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_mask.py",
+    "dependencies": [
+      "node_helpers",
+      "scipy.ndimage",
+      "nodes",
+      "ComfyExtension",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_load_3d.py",
+    "dependencies": [
+      "nodes",
+      "os",
+      "Path",
+      "folder_paths",
+      "pathlib",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_sag.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "comfy.ldm.modules.attention",
+      "torch.nn.functional",
+      "optimized_attention",
+      "comfy.samplers",
+      "typing_extensions",
+      "rearrange",
+      "einops",
+      "math",
+      "comfy_api.latest",
+      "einsum",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_qwen.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "math",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_advanced_samplers.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "trange",
+      "tqdm.auto",
+      "numpy",
+      "comfy.samplers",
+      "typing_extensions",
+      "comfy.k_diffusion.sampling",
+      "comfy.model_patcher",
+      "comfy.utils",
+      "to_d",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_mochi.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_cond.py",
+    "dependencies": [
+      "comfy_api.latest",
+      "typing_extensions",
+      "override",
+      "ComfyExtension"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_wanmove.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "parse_json_tracks",
+      "ComfyExtension",
+      "PIL",
+      "comfy.model_management",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "Image",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torchvision.transforms.functional",
+      "comfy_extras.nodes_wan",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_kandinsky5.py",
+    "dependencies": [
+      "node_helpers",
+      "nodes",
+      "ComfyExtension",
+      "comfy.model_management",
+      "typing_extensions",
+      "override",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lotus.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_tomesd.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "Tuple",
+      "typing_extensions",
+      "math",
+      "comfy_api.latest",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_attention_multiply.py",
+    "dependencies": [
+      "comfy_api.latest",
+      "typing_extensions",
+      "override",
+      "ComfyExtension"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_custom_sampler.py",
+    "dependencies": [
+      "node_helpers",
+      "re",
+      "sampling",
+      "ComfyExtension",
+      "comfy.k_diffusion",
+      "comfy.sample",
+      "comfy.samplers",
+      "sa_solver",
+      "comfy.utils",
+      "override",
+      "typing_extensions",
+      "math",
+      "latent_preview",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_context_windows.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "annotations",
+      "comfy.context_windows",
+      "comfy_api.latest",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_torch_compile.py",
+    "dependencies": [
+      "ComfyExtension",
+      "comfy_api.torch_helpers",
+      "typing_extensions",
+      "set_torch_compile_wrapper",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_easycache.py",
+    "dependencies": [
+      "logging",
+      "UUID",
+      "io",
+      "torch",
+      "uuid",
+      "annotations",
+      "comfy.patcher_extension",
+      "comfy.model_patcher",
+      "comfy_api.latest",
+      "__future__",
+      "TYPE_CHECKING",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_clip_sdxl.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_pag.py",
+    "dependencies": [
+      "ComfyExtension",
+      "typing_extensions",
+      "comfy.samplers",
+      "comfy.model_patcher",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_sdupscale.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_sd3.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "folder_paths",
+      "SkipLayerGuidanceDiT",
+      "comfy.sd",
+      "comfy.model_management",
+      "typing_extensions",
+      "override",
+      "comfy_extras.nodes_slg",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_model_merging_model_specific.py",
+    "dependencies": [
+      "comfy_extras.nodes_model_merging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lt.py",
+    "dependencies": [
+      "node_helpers",
+      "SymmetricPatchifier",
+      "nodes",
+      "av",
+      "ComfyExtension",
+      "io",
+      "BytesIO",
+      "comfy.model_management",
+      "numpy",
+      "comfy.model_sampling",
+      "typing_extensions",
+      "override",
+      "comfy.utils",
+      "comfy.nested_tensor",
+      "comfy_api.latest",
+      "comfy.ldm.lightricks.symmetric_patchifier",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_fresca.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "torch.fft",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_model_patch.py",
+    "dependencies": [
+      "comfy.ops",
+      "nn",
+      "folder_paths",
+      "comfy.latent_formats",
+      "comfy.model_management",
+      "comfy.utils",
+      "comfy.ldm.common_dit",
+      "comfy.ldm.lumina.controlnet",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_ip2p.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_images.py",
+    "dependencies": [
+      "nodes",
+      "os",
+      "ComfyExtension",
+      "folder_paths",
+      "annotations",
+      "typing_extensions",
+      "override",
+      "server",
+      "re",
+      "json",
+      "comfy.utils",
+      "PromptServer",
+      "comfy_api.latest",
+      "__future__",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lora_extract.py",
+    "dependencies": [
+      "logging",
+      "os",
+      "ComfyExtension",
+      "Enum",
+      "folder_paths",
+      "comfy.model_management",
+      "typing_extensions",
+      "override",
+      "comfy.utils",
+      "comfy_api.latest",
+      "enum",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_audio_encoder.py",
+    "dependencies": [
+      "ComfyExtension",
+      "folder_paths",
+      "comfy.audio_encoders.audio_encoders",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hypernetwork.py",
+    "dependencies": [
+      "logging",
+      "folder_paths",
+      "typing_extensions",
+      "override",
+      "IO",
+      "comfy.utils",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_image_compare.py",
+    "dependencies": [
+      "nodes",
+      "typing_extensions",
+      "IO",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_differential_diffusion.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_chroma_radiance.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "typing_extensions",
+      "Callable",
+      "comfy_api.latest",
+      "override",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_rope.py",
+    "dependencies": [
+      "comfy_api.latest",
+      "typing_extensions",
+      "override",
+      "ComfyExtension"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_tcfg.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hypertile.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "randint",
+      "typing_extensions",
+      "einops",
+      "rearrange",
+      "math",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_primitive.py",
+    "dependencies": [
+      "ComfyExtension",
+      "typing_extensions",
+      "sys",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_cosmos.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.latent_formats",
+      "comfy.model_management",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_apg.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_hooks.py",
+    "dependencies": [
+      "logging",
+      "torch",
+      "folder_paths",
+      "comfy.hooks",
+      "comfy.sd",
+      "collections.abc",
+      "annotations",
+      "Iterable",
+      "CLIP",
+      "comfy.utils",
+      "__future__",
+      "TYPE_CHECKING",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_webcam.py",
+    "dependencies": [
+      "folder_paths",
+      "nodes"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_dataset.py",
+    "dependencies": [
+      "logging",
+      "node_helpers",
+      "os",
+      "ComfyExtension",
+      "PIL",
+      "folder_paths",
+      "numpy",
+      "typing_extensions",
+      "override",
+      "Image",
+      "json",
+      "comfy_api.latest",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lt_upsampler.py",
+    "dependencies": [
+      "model_management",
+      "comfy",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_slg.py",
+    "dependencies": [
+      "ComfyExtension",
+      "comfy.samplers",
+      "typing_extensions",
+      "comfy.model_patcher",
+      "re",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_train.py",
+    "dependencies": [
+      "logging",
+      "ComfyExtension",
+      "ProgressBar",
+      "comfy_extras.nodes_custom_sampler",
+      "comfy.sampler_helpers",
+      "comfy.weight_adapter",
+      "override",
+      "torch",
+      "PIL",
+      "comfy.sd",
+      "comfy.samplers",
+      "comfy.utils",
+      "comfy_api.latest",
+      "node_helpers",
+      "os",
+      "adapters",
+      "folder_paths",
+      "trange",
+      "tqdm.auto",
+      "safetensors",
+      "numpy",
+      "Image",
+      "comfy.model_management",
+      "torch.utils.checkpoint",
+      "typing_extensions"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_lumina2.py",
+    "dependencies": [
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_camera_trajectory.py",
+    "dependencies": [
+      "nodes",
+      "ComfyExtension",
+      "torch",
+      "comfy.model_management",
+      "numpy",
+      "typing_extensions",
+      "einops",
+      "rearrange",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_freelunch.py",
+    "dependencies": [
+      "logging",
+      "ComfyExtension",
+      "torch",
+      "typing_extensions",
+      "comfy_api.latest",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_upscale_model.py",
+    "dependencies": [
+      "logging",
+      "MAIN_REGISTRY",
+      "ComfyExtension",
+      "folder_paths",
+      "comfy",
+      "ModelLoader",
+      "model_management",
+      "typing_extensions",
+      "override",
+      "spandrel_extra_arches",
+      "comfy.utils",
+      "comfy_api.latest",
+      "spandrel",
+      "EXTRA_REGISTRY",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/nodes_compositing.py",
+    "dependencies": [
+      "ComfyExtension",
+      "Enum",
+      "torch",
+      "typing_extensions",
+      "comfy.utils",
+      "comfy_api.latest",
+      "enum",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_extras/chainner_models/model_loading.py",
+    "dependencies": [
+      "logging",
+      "spandrel",
+      "ModelLoader"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/validation.py",
+    "dependencies": [
+      "comfy_api.latest",
+      "IO",
+      "annotations",
+      "__future__"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/graph_utils.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/progress.py",
+    "dependencies": [
+      "tqdm",
+      "comfy_execution.graph",
+      "protocol",
+      "TypedDict",
+      "override",
+      "PIL",
+      "annotations",
+      "TYPE_CHECKING",
+      "DynamicPrompt",
+      "feature_flags",
+      "ABC",
+      "comfy_api",
+      "Image",
+      "__future__",
+      "typing",
+      "Enum",
+      "abc",
+      "BinaryEventTypes",
+      "typing_extensions",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/jobs.py",
+    "dependencies": [
+      "comfy_api.internal",
+      "Optional",
+      "prune_dict",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/utils.py",
+    "dependencies": [
+      "Optional",
+      "contextvars",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/caching.py",
+    "dependencies": [
+      "bisect",
+      "psutil",
+      "DynamicPrompt",
+      "nodes",
+      "ABC",
+      "is_link",
+      "comfy_execution.graph",
+      "abc",
+      "comfy_execution.graph_utils",
+      "itertools",
+      "Sequence",
+      "gc",
+      "time",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_execution/graph.py",
+    "dependencies": [
+      "asyncio",
+      "comfy.comfy_types.node_typing",
+      "nodes",
+      "Type",
+      "is_link",
+      "comfy_execution.graph_utils",
+      "ComfyNodeABC",
+      "annotations",
+      "inspect",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "blueprints/put_blueprints_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/feature_flags_test.py",
+    "dependencies": [
+      "comfy_api.feature_flags"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/websocket_feature_flags_test.py",
+    "dependencies": [
+      "feature_flags",
+      "comfy_api"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_extras_test/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_extras_test/image_stitch_test.py",
+    "dependencies": [
+      "mock_nodes",
+      "comfy_extras.nodes_images",
+      "unittest.mock",
+      "ImageStitch",
+      "patch",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_test/folder_path_test.py",
+    "dependencies": [
+      "os",
+      "folder_paths",
+      "enable_args_parsing",
+      "reload",
+      "importlib",
+      "unittest.mock",
+      "pytest",
+      "patch",
+      "sys",
+      "comfy.cli_args",
+      "comfy.options",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/prompt_server_test/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/prompt_server_test/user_manager_test.py",
+    "dependencies": [
+      "os",
+      "app.user_manager",
+      "aiohttp",
+      "unittest.mock",
+      "web",
+      "patch",
+      "pytest",
+      "UserManager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/prompt_server_test/system_user_endpoint_test.py",
+    "dependencies": [
+      "os",
+      "app.user_manager",
+      "folder_paths",
+      "aiohttp",
+      "unittest.mock",
+      "web",
+      "patch",
+      "pytest",
+      "UserManager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/app_test/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/app_test/custom_node_manager_test.py",
+    "dependencies": [
+      "CustomNodeManager",
+      "aiohttp",
+      "unittest.mock",
+      "web",
+      "pytest",
+      "patch",
+      "json",
+      "app.custom_node_manager"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/app_test/model_manager_test.py",
+    "dependencies": [
+      "ModelFileManager",
+      "PIL",
+      "io",
+      "BytesIO",
+      "app.model_manager",
+      "aiohttp",
+      "unittest.mock",
+      "pytest",
+      "base64",
+      "Image",
+      "web",
+      "patch",
+      "json",
+      "struct"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/app_test/frontend_manager_test.py",
+    "dependencies": [
+      "DEFAULT_VERSION_STRING",
+      "app.frontend_management",
+      "requests.exceptions",
+      "unittest.mock",
+      "pytest",
+      "patch",
+      "comfy.cli_args",
+      "argparse",
+      "HTTPError"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/app_test/user_manager_system_user_test.py",
+    "dependencies": [
+      "app.user_manager",
+      "folder_paths",
+      "MagicMock",
+      "unittest.mock",
+      "pytest",
+      "UserManager",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/server_test/test_cache_control.py",
+    "dependencies": [
+      "aiohttp.test_utils",
+      "middleware.cache_middleware",
+      "make_mocked_request",
+      "Dict",
+      "aiohttp",
+      "web",
+      "pytest",
+      "cache_control",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/server/utils/file_operations_test.py",
+    "dependencies": [
+      "List",
+      "pytest",
+      "api_server.utils.file_operations",
+      "FileSystemOperations",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_quant/test_mixed_precision.py",
+    "dependencies": [
+      "QuantizedTensor",
+      "os",
+      "comfy.quant_ops",
+      "unittest",
+      "comfy",
+      "ops",
+      "sys",
+      "comfy.cli_args",
+      "comfy.utils",
+      "json",
+      "args",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/utils/extra_config_test.py",
+    "dependencies": [
+      "os",
+      "folder_paths",
+      "Mock",
+      "yaml",
+      "unittest.mock",
+      "pytest",
+      "sys",
+      "utils.extra_config",
+      "load_extra_path_config"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/utils/json_util_test.py",
+    "dependencies": [
+      "merge_json_recursive",
+      "utils.json_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_api_test/input_impl_test.py",
+    "dependencies": [
+      "comfy_api.input_impl.video_types",
+      "comfy_api.util",
+      "VideoContainer",
+      "io"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_api_test/video_types_test.py",
+    "dependencies": [
+      "VideoFromFile",
+      "AudioInput",
+      "av",
+      "os",
+      "VideoComponents",
+      "fractions",
+      "io",
+      "av.error",
+      "comfy_api.input.basic_types",
+      "pytest",
+      "comfy_api.input_impl.video_types",
+      "comfy_api.util.video_types",
+      "InvalidDataError",
+      "Fraction",
+      "tempfile",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/folder_paths_test/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/folder_paths_test/misc_test.py",
+    "dependencies": [
+      "os",
+      "get_input_subfolders",
+      "folder_paths",
+      "pytest",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/folder_paths_test/system_user_test.py",
+    "dependencies": [
+      "folder_paths",
+      "pytest",
+      "os",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/folder_paths_test/filter_by_content_types_test.py",
+    "dependencies": [
+      "os",
+      "folder_paths",
+      "filter_files_content_types",
+      "unittest.mock",
+      "pytest",
+      "patch",
+      "tempfile"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/comfy_api_nodes_test/mapper_utils_test.py",
+    "dependencies": [
+      "pydantic",
+      "Optional",
+      "comfy.comfy_types.node_typing",
+      "Enum",
+      "BaseModel",
+      "model_field_to_node_input",
+      "IO",
+      "comfy_api_nodes.mapper_utils",
+      "enum",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/execution_test/validate_node_input_test.py",
+    "dependencies": [
+      "pytest",
+      "comfy_execution.validation",
+      "validate_node_input"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests-unit/execution_test/preview_method_override_test.py",
+    "dependencies": [
+      "latent_preview",
+      "set_preview_method",
+      "pytest",
+      "comfy.cli_args",
+      "args"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "alembic_db/script.py.mako",
+    "dependencies": [
+      "op",
+      "Sequence",
+      "sqlalchemy",
+      "alembic",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "alembic_db/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "alembic_db/env.py",
+    "dependencies": [
+      "engine_from_config",
+      "app.database.models",
+      "Base",
+      "pool",
+      "sqlalchemy",
+      "context",
+      "alembic"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "alembic_db/versions/0001_assets.py",
+    "dependencies": [
+      "op",
+      "alembic",
+      "sqlalchemy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "custom_nodes/example_node.py.example",
+    "dependencies": [
+      "ComfyExtension",
+      "aiohttp",
+      "typing_extensions",
+      "web",
+      "server",
+      "comfy_api.latest",
+      "PromptServer",
+      "override"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "custom_nodes/websocket_image_save.py",
+    "dependencies": [
+      "PIL",
+      "numpy",
+      "Image",
+      "comfy.utils",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/conftest.py",
+    "dependencies": [
+      "pytest",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/inference/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/inference/test_inference.py",
+    "dependencies": [
+      "subprocess",
+      "copy",
+      "json",
+      "torch",
+      "PIL",
+      "io",
+      "uuid",
+      "fixture",
+      "KSampler",
+      "comfy.samplers",
+      "urllib.parse",
+      "deepcopy",
+      "os",
+      "urllib.request",
+      "BytesIO",
+      "numpy",
+      "Image",
+      "time",
+      "typing",
+      "websocket",
+      "pytest",
+      "Union"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/inference/graphs/default_graph_sdxl1_0.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_jobs.py",
+    "dependencies": [
+      "comfy_execution.jobs"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_execution.py",
+    "dependencies": [
+      "subprocess",
+      "urllib.error",
+      "json",
+      "torch",
+      "PIL",
+      "io",
+      "uuid",
+      "fixture",
+      "GraphBuilder",
+      "comfy_execution.graph_utils",
+      "urllib.parse",
+      "urllib.request",
+      "BytesIO",
+      "numpy",
+      "Image",
+      "time",
+      "typing",
+      "websocket",
+      "pytest",
+      "Union"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_progress_isolation.py",
+    "dependencies": [
+      "uuid",
+      "websocket",
+      "List",
+      "GraphBuilder",
+      "subprocess",
+      "ComfyClient",
+      "comfy_execution.graph_utils",
+      "pytest",
+      "threading",
+      "tests.execution.test_execution",
+      "json",
+      "time",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_public_api.py",
+    "dependencies": [
+      "fixture",
+      "subprocess",
+      "annotations",
+      "GraphBuilder",
+      "ComfyClient",
+      "comfy_execution.graph_utils",
+      "pytest",
+      "tests.execution.test_execution",
+      "__future__",
+      "time",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_preview_method.py",
+    "dependencies": [
+      "os",
+      "random",
+      "Path",
+      "pathlib",
+      "uuid",
+      "urllib.request",
+      "websocket",
+      "pytest",
+      "json",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/extra_model_paths.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/test_async_nodes.py",
+    "dependencies": [
+      "fixture",
+      "subprocess",
+      "GraphBuilder",
+      "comfy_execution.graph_utils",
+      "numpy",
+      "ComfyClient",
+      "urllib.error",
+      "pytest",
+      "tests.execution.test_execution",
+      "time",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/async_test_nodes.py",
+    "dependencies": [
+      "asyncio",
+      "comfy.comfy_types.node_typing",
+      "ProgressBar",
+      "comfy_execution.graph_utils",
+      "GraphBuilder",
+      "ComfyNodeABC",
+      "Dict",
+      "IO",
+      "comfy.utils",
+      "comfy.comfy_types",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/conditions.py",
+    "dependencies": [
+      "torch",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/__init__.py",
+    "dependencies": [
+      ".conditions",
+      "TEST_STUB_NODE_CLASS_MAPPINGS",
+      "CONDITION_NODE_CLASS_MAPPINGS",
+      ".api_test_nodes",
+      ".util",
+      ".stubs",
+      "FLOW_CONTROL_NODE_CLASS_MAPPINGS",
+      ".specific_tests",
+      ".async_test_nodes",
+      "API_TEST_NODE_CLASS_MAPPINGS",
+      "UTILITY_NODE_CLASS_MAPPINGS",
+      "TEST_NODE_CLASS_MAPPINGS",
+      ".flow_control",
+      "ASYNC_TEST_NODE_CLASS_MAPPINGS"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/flow_control.py",
+    "dependencies": [
+      "comfy_execution.graph",
+      ".tools",
+      "comfy_execution.graph_utils",
+      "GraphBuilder",
+      "ExecutionBlocker",
+      "VariantSupport"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/tools.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/stubs.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/api_test_nodes.py",
+    "dependencies": [
+      "asyncio",
+      "comfy_api.v0_0_2",
+      "IO",
+      "time",
+      "comfy.comfy_types",
+      "ComfyAPI"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/specific_tests.py",
+    "dependencies": [
+      "asyncio",
+      "comfy.comfy_types.node_typing",
+      "comfy.comfy_types",
+      "ProgressBar",
+      ".tools",
+      "comfy_execution.graph_utils",
+      "GraphBuilder",
+      "ComfyNodeABC",
+      "IO",
+      "VariantSupport",
+      "comfy.utils",
+      "time",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/execution/testing_nodes/testing-pack/util.py",
+    "dependencies": [
+      "NUM_FLOW_SOCKETS",
+      ".tools",
+      "comfy_execution.graph_utils",
+      "GraphBuilder",
+      "VariantSupport",
+      ".flow_control"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/compare/conftest.py",
+    "dependencies": [
+      "pytest",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/compare/test_quality.py",
+    "dependencies": [
+      "os",
+      "PIL",
+      "fixture",
+      "Tuple",
+      "structural_similarity",
+      "numpy",
+      "imread",
+      "skimage.metrics",
+      "pytest",
+      "Image",
+      "datetime",
+      "cv2",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/pixel_space_convert.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sample.py",
+    "dependencies": [
+      "logging",
+      "comfy.model_management",
+      "numpy",
+      "comfy.samplers",
+      "comfy.utils",
+      "comfy.nested_tensor",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/lora_convert.py",
+    "dependencies": [
+      "torch",
+      "comfy.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_model.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "optimized_attention_for_device",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/controlnet.py",
+    "dependencies": [
+      "logging",
+      "comfy.cldm.cldm",
+      "comfy.ldm.cascade.controlnet",
+      "comfy.latent_formats",
+      "comfy.model_detection",
+      "comfy.model_patcher",
+      "torch",
+      "comfy.cldm.dit_embedder",
+      "comfy.ldm.flux.controlnet",
+      "comfy.ldm.hydit.controlnet",
+      "math",
+      "comfy.ldm.qwen_image.controlnet",
+      "comfy.utils",
+      "TYPE_CHECKING",
+      "os",
+      "comfy.model_base",
+      "comfy.t2i_adapter.adapter",
+      "typing",
+      "comfy.ops",
+      "comfy.cldm.mmdit",
+      "Enum",
+      "comfy.hooks",
+      "comfy.model_management",
+      "HookGroup",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_config_vitl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/hooks.py",
+    "dependencies": [
+      "logging",
+      "conditioning_set_values",
+      "comfy.patcher_extension",
+      "comfy.model_patcher",
+      "torch",
+      "comfy.sd",
+      "annotations",
+      "math",
+      "TYPE_CHECKING",
+      "node_helpers",
+      "comfy.model_base",
+      "ModelPatcher",
+      "CLIP",
+      "numpy",
+      "comfy.lora",
+      "itertools",
+      "__future__",
+      "typing",
+      "comfy.model_management",
+      "BaseModel",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/cli_args.py",
+    "dependencies": [
+      "argparse",
+      "comfy.options",
+      "os",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/model_sampling.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.util",
+      "math",
+      "torch",
+      "make_beta_schedule"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/patcher_extension.py",
+    "dependencies": [
+      "__future__",
+      "annotations",
+      "Callable",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_clip.py",
+    "dependencies": [
+      "logging",
+      "CLIPTokenizer",
+      "comfy.ops",
+      "os",
+      "transformers",
+      "comfy.clip_model",
+      "safetensors.torch",
+      "numbers",
+      "model_management",
+      ".",
+      "re",
+      "json",
+      "traceback",
+      "zipfile",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/float.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/model_patcher.py",
+    "dependencies": [
+      "logging",
+      "collections",
+      "copy",
+      "comfy.patcher_extension",
+      "torch",
+      "QuantizedTensor",
+      "uuid",
+      "comfy.float",
+      "CallbacksMP",
+      "annotations",
+      "Callable",
+      "math",
+      "comfy.utils",
+      "comfy.comfy_types",
+      "comfy.quant_ops",
+      "UnetWrapperFunction",
+      "comfy.lora",
+      "__future__",
+      "typing",
+      "comfy.hooks",
+      "comfy.model_management",
+      "inspect"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_siglip_384.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/lora.py",
+    "dependencies": [
+      "logging",
+      "comfy.model_base",
+      "comfy.model_management",
+      "annotations",
+      "comfy.utils",
+      "__future__",
+      "comfy.weight_adapter",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/options.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sampler_helpers.py",
+    "dependencies": [
+      "uuid",
+      "comfy.hooks",
+      "comfy.model_base",
+      "comfy.model_management",
+      "annotations",
+      "ModelPatcher",
+      "BaseModel",
+      "collections",
+      "comfy.patcher_extension",
+      "ControlBase",
+      "comfy.conds",
+      "comfy.model_patcher",
+      "math",
+      "comfy.utils",
+      "__future__",
+      "comfy.controlnet",
+      "TYPE_CHECKING",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/diffusers_convert.py",
+    "dependencies": [
+      "logging",
+      "torch",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_config_vitl_336_llava.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/context_windows.py",
+    "dependencies": [
+      "logging",
+      "collections",
+      "comfy.patcher_extension",
+      "comfy.model_patcher",
+      "torch",
+      "annotations",
+      "TYPE_CHECKING",
+      "ABC",
+      "dataclass",
+      "comfy.model_base",
+      "ModelPatcher",
+      "numpy",
+      "__future__",
+      "comfy.controlnet",
+      "typing",
+      "dataclasses",
+      "abc",
+      "comfy.model_management",
+      "BaseModel",
+      "ControlBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sdxl_clip.py",
+    "dependencies": [
+      "comfy",
+      "os",
+      "sd1_clip",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/checkpoint_pickle.py",
+    "dependencies": [
+      "pickle"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/model_management.py",
+    "dependencies": [
+      "logging",
+      "torch.mps",
+      "xformers.ops",
+      "sys",
+      "torch",
+      "platform",
+      "intel_extension_for_pytorch",
+      "threading",
+      "weakref",
+      "args",
+      "torch_npu",
+      "torch_mlu",
+      "psutil",
+      "os",
+      "torch_directml",
+      "comfy.cli_args",
+      "xformers",
+      "Enum",
+      "gc",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_config_h.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/supported_models_base.py",
+    "dependencies": [
+      "logging",
+      "model_base",
+      ".",
+      "latent_formats",
+      "utils",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/model_base.py",
+    "dependencies": [
+      "logging",
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "comfy.ldm.wan.model",
+      "comfy.latent_formats",
+      "comfy.ldm.pixart.pixartms",
+      "comfy.patcher_extension",
+      "comfy.ldm.wan.model_animate",
+      "comfy.ldm.lumina.model",
+      "ImageConcatWithNoiseAugmentation",
+      "comfy.ldm.cascade.stage_b",
+      ".",
+      "comfy.ldm.hunyuan3dv2_1.hunyuandit",
+      "comfy.ldm.cosmos.predict2",
+      "comfy.model_patcher",
+      "utils",
+      "torch",
+      "comfy.ldm.audio.dit",
+      "comfy.ldm.kandinsky5.model",
+      "CLIPEmbeddingNoiseAugmentation",
+      "comfy.ldm.hidream.model",
+      "comfy.ldm.lalelugen.lalelugen2",
+      "comfy.ldm.hunyuan3dv2_1",
+      "comfy.ldm.chroma_radiance.model",
+      "math",
+      "comfy.ldm.modules.diffusionmodules.upscaling",
+      "comfy.ldm.hydit.models",
+      "TYPE_CHECKING",
+      "comfy.ldm.cascade.stage_c",
+      "ModelPatcher",
+      "comfy.model_sampling",
+      "comfy.ldm.genmo.joint_model.asymm_models_joint",
+      "comfy.ldm.chroma.model",
+      "OpenAISignatureMMDITWrapper",
+      "StageC",
+      "comfy.ldm.hunyuan3d.model",
+      "comfy.ldm.lightricks.model",
+      "typing",
+      "comfy.ldm.cosmos.model",
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.openaimodel",
+      "comfy.ldm.ace.model",
+      "StageB",
+      "Enum",
+      "comfy.ldm.modules.encoders.noise_aug_modules",
+      "comfy.ldm.hunyuan_video.model",
+      "comfy.ldm.flux.model",
+      "comfy.ldm.lightricks.av_model",
+      "comfy.model_management",
+      "UNetModel",
+      "comfy.conds",
+      "comfy.ldm.aura.mmdit",
+      "comfy.ldm.qwen_image.model",
+      "comfy.ldm.audio.embedders",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd.py",
+    "dependencies": [
+      "logging",
+      "StageA",
+      "comfy.pixel_space_convert",
+      "comfy.text_encoders.newbie",
+      "ProgressBar",
+      "comfy.latent_formats",
+      "sdxl_clip",
+      "comfy.text_encoders.cosmos",
+      "AudioOobleckVAE",
+      "comfy.model_patcher",
+      ".ldm.audio.autoencoder",
+      "json",
+      ".",
+      "comfy.text_encoders.z_image",
+      "diffusers_convert",
+      "torch",
+      "sd1_clip",
+      "comfy.text_encoders.lt",
+      "AutoencoderKL",
+      "clip_vision",
+      "comfy.text_encoders.hunyuan_video",
+      "comfy.ldm.wan.vae",
+      "gligen",
+      "annotations",
+      "comfy.text_encoders.ace",
+      "comfy.ldm.mmaudio.vae.autoencoder",
+      "comfy.text_encoders.ovis",
+      "model_management",
+      "comfy.taesd.taehv",
+      ".ldm.cascade.stage_a",
+      "math",
+      "comfy.utils",
+      "comfy.ldm.flux.redux",
+      "comfy.ldm.ace.vae.music_dcae_pipeline",
+      "comfy.text_encoders.hydit",
+      "comfy.text_encoders.sa_t5",
+      "comfy.text_encoders.lumina2",
+      "os",
+      ".ldm.cascade.stage_c_coder",
+      "StageC_coder",
+      "comfy.text_encoders.hunyuan_image",
+      "yaml",
+      "comfy.text_encoders.flux",
+      "comfy.lora",
+      "comfy.ldm.genmo.vae.model",
+      "comfy.text_encoders.jina_clip_2",
+      "comfy.text_encoders.kandinsky5",
+      "comfy.text_encoders.long_clipl",
+      "comfy.text_encoders.lalelugen2",
+      "comfy.t2i_adapter.adapter",
+      "comfy.taesd.taesd",
+      "__future__",
+      ".ldm.models.autoencoder",
+      "comfy.text_encoders.sd2_clip",
+      "comfy.text_encoders.sd3_clip",
+      "comfy.text_encoders.genmo",
+      "comfy.text_encoders.hidream",
+      "Enum",
+      "comfy.hooks",
+      "comfy",
+      "comfy.text_encoders.wan",
+      "comfy.ldm.cosmos.vae",
+      "model_detection",
+      "comfy.text_encoders.aura_t5",
+      "comfy.ldm.lightricks.vae.causal_video_autoencoder",
+      "comfy.ldm.wan.vae2_2",
+      "comfy.lora_convert",
+      "enum",
+      "comfy.text_encoders.pixart_t5",
+      "comfy.text_encoders.qwen_image",
+      "comfy.ldm.hunyuan3d.vae",
+      "comfy.ldm.hunyuan_video.vae"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/utils.py",
+    "dependencies": [
+      "logging",
+      "torch.nn.functional",
+      "numpy.dtypes",
+      "einops",
+      "json",
+      "_codecs",
+      "interpolate",
+      "torch",
+      "numpy.core.multiarray",
+      "scalar",
+      "PIL",
+      "rearrange",
+      "math",
+      "args",
+      "comfy.checkpoint_pickle",
+      "encode",
+      "numpy",
+      "Image",
+      "comfy.cli_args",
+      "itertools",
+      "time",
+      "Float64DType",
+      "struct",
+      "safetensors.torch",
+      "dtype"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/supported_models.py",
+    "dependencies": [
+      "sdxl_clip",
+      "comfy.text_encoders.cosmos",
+      ".",
+      "comfy.text_encoders.z_image",
+      "utils",
+      "diffusers_convert",
+      "torch",
+      "sd1_clip",
+      "comfy.text_encoders.lt",
+      "supported_models_base",
+      "comfy.text_encoders.hunyuan_video",
+      "comfy.text_encoders.ace",
+      "comfy.text_encoders.hydit",
+      "comfy.text_encoders.sa_t5",
+      "comfy.text_encoders.lumina2",
+      "comfy.text_encoders.hunyuan_image",
+      "comfy.text_encoders.flux",
+      "comfy.text_encoders.kandinsky5",
+      "model_base",
+      "latent_formats",
+      "comfy.text_encoders.lalelugen2",
+      "comfy.text_encoders.sd2_clip",
+      "comfy.text_encoders.sd3_clip",
+      "comfy.text_encoders.genmo",
+      "comfy.text_encoders.wan",
+      "comfy.model_management",
+      "comfy.text_encoders.aura_t5",
+      "comfy.text_encoders.pixart_t5",
+      "comfy.text_encoders.qwen_image"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/nested_tensor.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/quant_ops.py",
+    "dependencies": [
+      "logging",
+      "comfy_kitchen.tensor",
+      "comfy.float",
+      "comfy_kitchen",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_siglip_512.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_config_bigg.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_config_vitl_336.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_clip_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/latent_formats.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ops.py",
+    "dependencies": [
+      "logging",
+      "SDPBackend",
+      ".quant_ops",
+      "comfy.float",
+      "comfy.model_management",
+      "torch.nn.attention",
+      "inspect",
+      "CublasLinear",
+      "comfy.rmsnorm",
+      "cublas_ops",
+      "comfy.cli_args",
+      "json",
+      "args",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/rmsnorm.py",
+    "dependencies": [
+      "logging",
+      "comfy.model_management",
+      "torch",
+      "numbers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/model_detection.py",
+    "dependencies": [
+      "comfy.supported_models_base",
+      "logging",
+      "comfy.supported_models",
+      "math",
+      "json",
+      "comfy.utils",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/samplers.py",
+    "dependencies": [
+      "logging",
+      "collections",
+      "comfy.patcher_extension",
+      "comfy.model_patcher",
+      "comfy.sampler_helpers",
+      "torch",
+      "partial",
+      "annotations",
+      "functools",
+      "model_management",
+      "comfy.context_windows",
+      "comfy.utils",
+      "math",
+      "TYPE_CHECKING",
+      ".extra_samplers",
+      ".k_diffusion",
+      "comfy.model_base",
+      "ModelPatcher",
+      "scipy.stats",
+      "numpy",
+      "uni_pc",
+      "__future__",
+      "comfy.controlnet",
+      "typing",
+      "sampling",
+      "comfy.hooks",
+      "comfy",
+      "BaseModel",
+      "ControlBase"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/conds.py",
+    "dependencies": [
+      "logging",
+      "comfy.utils",
+      "torch",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/diffusers_load.py",
+    "dependencies": [
+      "comfy.sd",
+      "os"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/gligen.py",
+    "dependencies": [
+      "comfy.ops",
+      "nn",
+      ".ldm.modules.attention",
+      "CrossAttention",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_siglip2_base_naflex.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision.py",
+    "dependencies": [
+      "logging",
+      "load_torch_file",
+      "comfy.ops",
+      ".utils",
+      "os",
+      "comfy.image_encoders.dino2",
+      "comfy.clip_model",
+      "comfy.model_management",
+      "comfy.model_patcher",
+      "comfy.utils",
+      "json"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/clip_vision_config_g.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/extra_samplers/uni_pc.py",
+    "dependencies": [
+      "logging",
+      "trange",
+      "tqdm.auto",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/__init__.py",
+    "dependencies": [
+      ".boft",
+      ".lora",
+      ".glora",
+      "LoHaAdapter",
+      "BOFTAdapter",
+      ".loha",
+      ".lokr",
+      "OFTAdapter",
+      ".base",
+      "LoRAAdapter",
+      ".oft",
+      "LoKrAdapter",
+      "WeightAdapterBase",
+      "GLoRAAdapter"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/lora.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/oft.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "WeightAdapterBase",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/glora.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "WeightAdapterBase",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/lokr.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/boft.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "WeightAdapterBase",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/base.py",
+    "dependencies": [
+      "Optional",
+      "comfy.model_management",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/weight_adapter/loha.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.model_management",
+      ".base",
+      "WeightAdapterBase",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/t2i_adapter/adapter.py",
+    "dependencies": [
+      "collections",
+      "OrderedDict",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/k_diffusion/sa_solver.py",
+    "dependencies": [
+      "typing",
+      "Union",
+      "torch",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/k_diffusion/utils.py",
+    "dependencies": [
+      "shutil",
+      "contextlib",
+      "Path",
+      "nn",
+      "pathlib",
+      "PIL",
+      "contextmanager",
+      "urllib",
+      "data",
+      "hashlib",
+      "warnings",
+      "Image",
+      "math",
+      "torch",
+      "torch.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/k_diffusion/deis.py",
+    "dependencies": [
+      "torch",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/k_diffusion/sampling.py",
+    "dependencies": [
+      "partial",
+      "nn",
+      "trange",
+      "tqdm.auto",
+      "functools",
+      "comfy.model_sampling",
+      "sa_solver",
+      ".",
+      "integrate",
+      "comfy.model_patcher",
+      "math",
+      "deis",
+      "torchsde",
+      "scipy",
+      "utils",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_tokenizer/merges.txt",
+    "dependencies": [
+      "ance",
+      "antly",
+      "ant"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_tokenizer/vocab.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/sd1_tokenizer/special_tokens_map.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/comfy_types/__init__.py",
+    "dependencies": [
+      ".node_typing",
+      "IO",
+      "Callable",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/comfy_types/README.md",
+    "dependencies": [
+      "IO",
+      "comfy.comfy_types"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/comfy_types/node_typing.py",
+    "dependencies": [
+      "Literal",
+      "NotRequired",
+      "ABC",
+      "Enum",
+      "abc",
+      "annotations",
+      "typing_extensions",
+      "enum",
+      "__future__",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/comfy_types/examples/example_nodes.py",
+    "dependencies": [
+      "inspect",
+      "IO",
+      "comfy.comfy_types",
+      "cleandoc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/image_encoders/dino2_giant.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/image_encoders/dino2.py",
+    "dependencies": [
+      "comfy.text_encoders.bert",
+      "optimized_attention_for_device",
+      "BertAttention",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/image_encoders/dino2_large.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/common_dit.py",
+    "dependencies": [
+      "comfy.rmsnorm",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/util.py",
+    "dependencies": [
+      "logging",
+      "optim",
+      "PIL",
+      "numpy",
+      "inspect",
+      "importlib",
+      "Image",
+      "isfunction",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/audio/autoencoder.py",
+    "dependencies": [
+      "Literal",
+      "comfy.ops",
+      "nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/audio/dit.py",
+    "dependencies": [
+      "comfy.ops",
+      "nn",
+      "comfy.ldm.modules.attention",
+      "functional",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "math",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/audio/embedders.py",
+    "dependencies": [
+      "comfy.ops",
+      "List",
+      "Tensor",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/qwen_image/controlnet.py",
+    "dependencies": [
+      ".model",
+      "QwenImageTransformer2DModel",
+      "torch",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/qwen_image/model.py",
+    "dependencies": [
+      "Optional",
+      "apply_rope1",
+      "comfy.ldm.modules.attention",
+      "EmbedND",
+      "torch.nn.functional",
+      "repeat",
+      "optimized_attention_masked",
+      "TimestepEmbedding",
+      "comfy.patcher_extension",
+      "einops",
+      "torch.nn",
+      "comfy.ldm.flux.layers",
+      "comfy.ldm.flux.math",
+      "comfy.ldm.common_dit",
+      "comfy.ldm.lightricks.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan3d/vae.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.ops",
+      "tqdm",
+      "numpy",
+      "torch.nn.functional",
+      "math",
+      "trimesh",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan3d/model.py",
+    "dependencies": [
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/aura/mmdit.py",
+    "dependencies": [
+      "comfy.ops",
+      "torch",
+      "comfy.ldm.modules.attention",
+      "torch.nn.functional",
+      "comfy.patcher_extension",
+      "torch.nn",
+      "comfy.ldm.common_dit",
+      "math",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/models/autoencoder.py",
+    "dependencies": [
+      "logging",
+      "comfy.ops",
+      "comfy.ldm.modules.ema",
+      "contextlib",
+      "Any",
+      "contextmanager",
+      "comfy.model_management",
+      "LitEma",
+      "get_obj_from_str",
+      "comfy.ldm.util",
+      "rearrange",
+      "DiagonalGaussianDistribution",
+      "math",
+      "comfy.ldm.modules.distributions.distributions",
+      "einops",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lumina/controlnet.py",
+    "dependencies": [
+      ".model",
+      "JointTransformerBlock",
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lumina/model.py",
+    "dependencies": [
+      "apply_rope",
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "TimestepEmbedder",
+      "comfy.ldm.modules.attention",
+      "EmbedND",
+      "List",
+      "annotations",
+      "torch.nn.functional",
+      "optimized_attention_masked",
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "torch.nn",
+      "comfy.ldm.flux.math",
+      "comfy.ldm.common_dit",
+      "__future__",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hydit/controlnet.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      ".models",
+      "comfy.latent_formats",
+      "AttentionPool",
+      "torch.nn",
+      "HunYuanDiTBlock",
+      ".poolers",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hydit/posemb_layers.py",
+    "dependencies": [
+      "typing",
+      "Union",
+      "torch",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hydit/poolers.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "torch",
+      "torch.nn",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hydit/models.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "timestep_embedding",
+      "get_2d_rotary_pos_embed",
+      "Attention",
+      "AttentionPool",
+      ".attn_layers",
+      "checkpoint",
+      ".posemb_layers",
+      "Mlp",
+      "torch.nn",
+      "pdb",
+      "comfy.ldm.modules.diffusionmodules.util",
+      ".poolers",
+      "torch",
+      "torch.utils"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hydit/attn_layers.py",
+    "dependencies": [
+      "torch",
+      "comfy.ldm.modules.attention",
+      "Tuple",
+      "torch.nn",
+      "optimized_attention",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/wan/vae.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.model",
+      "torch.nn.functional",
+      "einops",
+      "vae_attention",
+      "rearrange",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/wan/model.py",
+    "dependencies": [
+      "apply_rope1",
+      "torch",
+      "comfy.ldm.modules.attention",
+      "EmbedND",
+      "comfy.model_management",
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "comfy.ldm.flux.math",
+      "comfy.ldm.common_dit",
+      "math",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/wan/model_animate.py",
+    "dependencies": [
+      "nn",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "Tuple",
+      "torch.nn.functional",
+      ".model",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "math",
+      "WanModel",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/wan/vae2_2.py",
+    "dependencies": [
+      "comfy.ops",
+      ".vae",
+      "torch.nn.functional",
+      "einops",
+      "AttentionBlock",
+      "rearrange",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/chroma/model.py",
+    "dependencies": [
+      "dataclasses",
+      ".layers",
+      "dataclass",
+      "Tensor",
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "einops",
+      "rearrange",
+      "comfy.ldm.common_dit",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/chroma/layers.py",
+    "dependencies": [
+      "Tensor",
+      "comfy.ldm.flux.layers",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/kandinsky5/model.py",
+    "dependencies": [
+      "apply_rope1",
+      "torch",
+      "nn",
+      "EmbedND",
+      "comfy.ldm.modules.attention",
+      "comfy.ldm.flux.layers",
+      "math",
+      "comfy.ldm.flux.math",
+      "comfy.ldm.common_dit",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan_video/vae.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.model",
+      "torch.nn.functional",
+      "ResnetBlock",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan_video/model.py",
+    "dependencies": [
+      "dataclasses",
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "torch",
+      "MLPProj",
+      "dataclass",
+      "comfy.ldm.modules.attention",
+      "comfy.ldm.wan.model",
+      "Tensor",
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "repeat",
+      "einops",
+      "comfy.ldm.common_dit",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan_video/upsampler.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.model",
+      "RMS_norm",
+      "comfy.model_management",
+      "comfy.ldm.hunyuan_video.vae_refiner",
+      "torch.nn.functional",
+      "ResnetBlock",
+      "comfy.model_patcher",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan_video/vae_refiner.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.model",
+      "comfy.ldm.models.autoencoder",
+      "comfy.model_management",
+      "torch.nn.functional",
+      "ResnetBlock",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lalelugen/lalelugen2.py",
+    "dependencies": [
+      "Optional",
+      "Timesteps",
+      "comfy.ldm.modules.attention",
+      "EmbedND",
+      "comfy.model_management",
+      "torch.nn.functional",
+      "optimized_attention_masked",
+      "comfy.ldm.flux.layers",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "comfy.ldm.common_dit",
+      "comfy.ldm.lightricks.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/blocks.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "nn",
+      "comfy.ldm.modules.attention",
+      "numpy",
+      "einops.layers.torch",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "math",
+      "Rearrange",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/vae.py",
+    "dependencies": [
+      "logging",
+      ".cosmos_tokenizer.layers3d",
+      "Enum",
+      "nn",
+      "math",
+      "enum",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/model.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "torchvision",
+      "nn",
+      "Enum",
+      "LearnablePosEmbAxis",
+      "comfy.patcher_extension",
+      "einops",
+      "rearrange",
+      "enum",
+      ".position_embedding",
+      "transforms",
+      ".blocks",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/predict2.py",
+    "dependencies": [
+      "logging",
+      "torchvision",
+      ".position_embedding",
+      "nn",
+      "comfy.ldm.modules.attention",
+      "einops.layers.torch",
+      "comfy.patcher_extension",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "Callable",
+      "math",
+      "typing",
+      "Rearrange",
+      "transforms",
+      "torch",
+      "VideoRopePosition3DEmb"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/position_embedding.py",
+    "dependencies": [
+      "nn",
+      "List",
+      "einops",
+      "rearrange",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/cosmos_tokenizer/utils.py",
+    "dependencies": [
+      "comfy.ops",
+      "Any",
+      "einops",
+      "rearrange",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/cosmos_tokenizer/patching.py",
+    "dependencies": [
+      "einops",
+      "rearrange",
+      "torch",
+      "torch.nn.functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cosmos/cosmos_tokenizer/layers3d.py",
+    "dependencies": [
+      "logging",
+      ".utils",
+      "comfy.ops",
+      ".patching",
+      "comfy.ldm.modules.diffusionmodules.model",
+      "Tuple",
+      "numpy",
+      "torch.nn.functional",
+      "vae_attention",
+      "torch.nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/model.py",
+    "dependencies": [
+      "SymmetricPatchifier",
+      "ABC",
+      "Enum",
+      "nn",
+      "comfy.ldm.modules.attention",
+      "abc",
+      "functools",
+      "numpy",
+      "Dict",
+      "comfy.patcher_extension",
+      "einops",
+      "rearrange",
+      ".symmetric_patchifier",
+      "math",
+      "comfy.ldm.common_dit",
+      "enum",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/latent_upsampler.py",
+    "dependencies": [
+      "Optional",
+      "torch.nn.functional",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/av_model.py",
+    "dependencies": [
+      "comfy.ldm.lightricks.symmetric_patchifier",
+      "Tuple",
+      "torch.nn",
+      "comfy.ldm.common_dit",
+      "AudioPatchifier",
+      "comfy.ldm.lightricks.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/symmetric_patchifier.py",
+    "dependencies": [
+      "ABC",
+      "abc",
+      "Tuple",
+      "Tensor",
+      "einops",
+      "rearrange",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/embeddings_connector.py",
+    "dependencies": [
+      "Optional",
+      "nn",
+      "math",
+      "comfy.ldm.common_dit",
+      "comfy.ldm.lightricks.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/pixel_norm.py",
+    "dependencies": [
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/causal_video_autoencoder.py",
+    "dependencies": [
+      "make_conv_nd",
+      "partial",
+      "comfy.ops",
+      "nn",
+      "PixelNorm",
+      "List",
+      "annotations",
+      "PixArtAlphaCombinedTimestepSizeEmbeddings",
+      "functools",
+      ".conv_nd_factory",
+      ".pixel_norm",
+      "einops",
+      "rearrange",
+      "..model",
+      "math",
+      "__future__",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/dual_conv3d.py",
+    "dependencies": [
+      "Tuple",
+      "torch.nn.functional",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/causal_audio_autoencoder.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.ops",
+      "nn",
+      "Enum",
+      "PixelNorm",
+      "functional",
+      "annotations",
+      ".pixel_norm",
+      "enum",
+      "torch.nn",
+      "__future__",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/audio_vae.py",
+    "dependencies": [
+      "dataclasses",
+      "comfy.ldm.mmaudio.vae.distributions",
+      "comfy.ldm.lightricks.vocoders.vocoder",
+      "dataclass",
+      "comfy.ldm.lightricks.symmetric_patchifier",
+      "comfy.model_management",
+      "comfy.ldm.lightricks.vae.causal_audio_autoencoder",
+      "Vocoder",
+      "torchaudio",
+      "comfy.model_patcher",
+      "math",
+      "json",
+      "comfy.utils",
+      "DiagonalGaussianDistribution",
+      "AudioPatchifier",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/conv_nd_factory.py",
+    "dependencies": [
+      "comfy.ops",
+      ".dual_conv3d",
+      "Tuple",
+      "CausalConv3d",
+      ".causal_conv3d",
+      "DualConv3d",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vae/causal_conv3d.py",
+    "dependencies": [
+      "comfy.ops",
+      "Tuple",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/lightricks/vocoders/vocoder.py",
+    "dependencies": [
+      "comfy.ops",
+      "numpy",
+      "torch.nn.functional",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/chroma_radiance/model.py",
+    "dependencies": [
+      "dataclasses",
+      "Optional",
+      ".layers",
+      "comfy.ldm.chroma.layers",
+      "dataclass",
+      "EmbedND",
+      "Chroma",
+      "Tensor",
+      "repeat",
+      "comfy.ldm.flux.layers",
+      "einops",
+      "comfy.ldm.chroma.model",
+      "comfy.ldm.common_dit",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/chroma_radiance/layers.py",
+    "dependencies": [
+      "nn",
+      "functools",
+      "lru_cache",
+      "comfy.ldm.flux.layers",
+      "RMSNorm",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/controlnet.py",
+    "dependencies": [
+      ".common",
+      "torchvision",
+      "LayerNorm2d_op",
+      "nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/stage_a.py",
+    "dependencies": [
+      "comfy.ops",
+      "nn",
+      "Function",
+      "torch.autograd",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/stage_b.py",
+    "dependencies": [
+      ".common",
+      "nn",
+      "AttnBlock",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/stage_c.py",
+    "dependencies": [
+      ".common",
+      "ControlNetDeliverer",
+      ".controlnet",
+      "nn",
+      "AttnBlock",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/stage_c_coder.py",
+    "dependencies": [
+      "torchvision",
+      "comfy.ops",
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/cascade/common.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "torch",
+      "torch.nn",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/temporal_ae.py",
+    "dependencies": [
+      "BasicTransformerBlock",
+      ".diffusionmodules.openaimodel",
+      "comfy.ops",
+      ".attention",
+      "Iterable",
+      "functools",
+      "ResBlock",
+      "einops",
+      "rearrange",
+      ".diffusionmodules.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/attention.py",
+    "dependencies": [
+      "logging",
+      "AlphaBlender",
+      "xformers.ops",
+      "torch.nn.functional",
+      "einops",
+      "sys",
+      "torch",
+      "efficient_dot_product_attention",
+      ".sub_quadratic_attention",
+      "functools",
+      "model_management",
+      "sageattn",
+      "rearrange",
+      "math",
+      "args",
+      "sageattn3_blackwell",
+      "Optional",
+      "sageattention",
+      "comfy.cli_args",
+      "xformers",
+      "flash_attn_func",
+      "typing",
+      "flash_attn",
+      ".diffusionmodules.util",
+      "comfy.ops",
+      "nn",
+      "comfy",
+      "sageattn3"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/ema.py",
+    "dependencies": [
+      "torch",
+      "nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/sub_quadratic_attention.py",
+    "dependencies": [
+      "logging",
+      "partial",
+      "Optional",
+      "Protocol",
+      "comfy",
+      "List",
+      "torch.utils.checkpoint",
+      "functools",
+      "Tensor",
+      "model_management",
+      "typing_extensions",
+      "checkpoint",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/encoders/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/encoders/noise_aug_modules.py",
+    "dependencies": [
+      "..diffusionmodules.openaimodel",
+      "Timestep",
+      "..diffusionmodules.upscaling",
+      "ImageConcatWithNoiseAugmentation",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/model.py",
+    "dependencies": [
+      "logging",
+      "comfy.ops",
+      "xformers.ops",
+      "comfy",
+      "numpy",
+      "model_management",
+      "xformers",
+      "torch.nn",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/openaimodel.py",
+    "dependencies": [
+      "logging",
+      "comfy.ops",
+      "abstractmethod",
+      "abc",
+      "SpatialTransformer",
+      ".util",
+      "omegaconf.listconfig",
+      "torch.nn.functional",
+      "comfy.patcher_extension",
+      "ListConfig",
+      "einops",
+      "rearrange",
+      "comfy.ldm.util",
+      "torch.nn",
+      "..attention",
+      "torch",
+      "exists"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/upscaling.py",
+    "dependencies": [
+      "partial",
+      "extract_into_tensor",
+      ".util",
+      "functools",
+      "numpy",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/mmdit.py",
+    "dependencies": [
+      "partial",
+      "comfy.ops",
+      "timestep_embedding",
+      ".util",
+      "functools",
+      "numpy",
+      "Dict",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "comfy.ldm.common_dit",
+      "..attention",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/diffusionmodules/util.py",
+    "dependencies": [
+      "logging",
+      "numpy",
+      "instantiate_from_config",
+      "repeat",
+      "einops",
+      "comfy.ldm.util",
+      "torch.nn",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/distributions/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/modules/distributions/distributions.py",
+    "dependencies": [
+      "torch",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/model.py",
+    "dependencies": [
+      "Optional",
+      ".attention",
+      "nn",
+      "comfy.model_management",
+      "ConformerEncoder",
+      "comfy.patcher_extension",
+      "TimestepEmbedding",
+      "LinearTransformerBlock",
+      ".lyric_encoder",
+      "comfy.ldm.lightricks.model",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/lyric_encoder.py",
+    "dependencies": [
+      "Optional",
+      "nn",
+      "comfy.model_management",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/attention.py",
+    "dependencies": [
+      "nn",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "Tuple",
+      "torch.nn.functional",
+      "optimized_attention",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/vae/music_vocoder.py",
+    "dependencies": [
+      "partial",
+      "comfy.ops",
+      "nn",
+      "comfy.model_management",
+      "torch.nn.utils.parametrize",
+      "functools",
+      "numpy",
+      "torch.nn.functional",
+      "LogMelSpectrogram",
+      "prod",
+      "Callable",
+      "remove_parametrizations",
+      ".music_log_mel",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/vae/music_log_mel.py",
+    "dependencies": [
+      "logging",
+      "torchaudio.transforms",
+      "comfy.model_management",
+      "Tensor",
+      "torch.nn",
+      "MelScale",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/vae/music_dcae_pipeline.py",
+    "dependencies": [
+      "logging",
+      "ADaMoSHiFiGANV1",
+      ".music_vocoder",
+      "AutoencoderDC",
+      "torchvision.transforms",
+      "torchaudio",
+      ".autoencoder_dc",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/ace/vae/autoencoder_dc.py",
+    "dependencies": [
+      "comfy.ops",
+      "diffusers",
+      "comfy.model_management",
+      "Tuple",
+      "torch.nn.functional",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/flux/controlnet.py",
+    "dependencies": [
+      ".layers",
+      "Tensor",
+      ".model",
+      "einops",
+      "rearrange",
+      "math",
+      "Flux",
+      "comfy.ldm.common_dit",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/flux/redux.py",
+    "dependencies": [
+      "comfy.ops",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/flux/model.py",
+    "dependencies": [
+      "dataclasses",
+      ".layers",
+      "dataclass",
+      "Tensor",
+      "comfy.patcher_extension",
+      "einops",
+      "rearrange",
+      "comfy.ldm.common_dit",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/flux/math.py",
+    "dependencies": [
+      "logging",
+      "comfy.quant_ops",
+      "torch",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "Tensor",
+      "einops",
+      "rearrange",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/flux/layers.py",
+    "dependencies": [
+      "dataclasses",
+      "comfy.ops",
+      "attention",
+      "dataclass",
+      "Tensor",
+      "math",
+      "comfy.ldm.common_dit",
+      ".math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hunyuan3dv2_1/hunyuandit.py",
+    "dependencies": [
+      "torch",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "torch.nn.functional",
+      "torch.nn",
+      "math",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/vae/model.py",
+    "dependencies": [
+      "partial",
+      "comfy.ops",
+      "mochi_preview.dit.joint_model.context_parallel",
+      "comfy.ldm.modules.attention",
+      "mochi_preview.vae.cp_conv",
+      "List",
+      "functools",
+      "torch.nn.functional",
+      "optimized_attention",
+      "cp_pass_frames",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/joint_model/temporal_rope.py",
+    "dependencies": [
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/joint_model/utils.py",
+    "dependencies": [
+      "Optional",
+      "torch.nn.functional",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/joint_model/layers.py",
+    "dependencies": [
+      "collections.abc",
+      "torch.nn.functional",
+      "repeat",
+      "einops",
+      "rearrange",
+      "Callable",
+      "math",
+      "itertools",
+      "comfy.ldm.common_dit",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/joint_model/asymm_models_joint.py",
+    "dependencies": [
+      ".utils",
+      "comfy.ops",
+      ".layers",
+      "flash_attn",
+      "comfy.ldm.modules.attention",
+      ".rope_mixed",
+      "torch.nn.functional",
+      "Dict",
+      ".temporal_rope",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "apply_rotary_emb_qk_real",
+      "comfy.ldm.common_dit",
+      "flash_attn_varlen_qkvpacked_func",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/genmo/joint_model/rope_mixed.py",
+    "dependencies": [
+      "torch",
+      "functools",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/pixart/pixartms.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "TimestepEmbedder",
+      "torch.nn",
+      ".blocks",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/pixart/blocks.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "TimestepEmbedder",
+      "comfy.ldm.modules.attention",
+      "xformers.ops",
+      "torch.nn.functional",
+      "optimized_attention",
+      "einops",
+      "rearrange",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/hidream/model.py",
+    "dependencies": [
+      "torch.nn.functional",
+      "comfy.patcher_extension",
+      "comfy.ldm.flux.layers",
+      "einops",
+      "torch.nn",
+      "comfy.ldm.common_dit",
+      "torch",
+      "comfy.ldm.modules.attention",
+      "Optional",
+      "LastLayer",
+      "comfy.ldm.flux.math",
+      "comfy.ldm.lightricks.model",
+      "typing",
+      "apply_rope",
+      "torch.nn.init",
+      "comfy.model_management",
+      "repeat",
+      "TimestepEmbedding",
+      "optimized_attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/bigvgan.py",
+    "dependencies": [
+      "comfy.ops",
+      ".alias_free_torch",
+      "types",
+      ".",
+      "torch.nn",
+      "activations",
+      "SimpleNamespace",
+      "torch",
+      "Activation1d"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/vae_modules.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.diffusionmodules.model",
+      "torch.nn.functional",
+      "vae_attention",
+      "math",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/vae.py",
+    "dependencies": [
+      "logging",
+      "Optional",
+      "comfy.ops",
+      ".vae_modules",
+      ".distributions",
+      "DiagonalGaussianDistribution",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/autoencoder.py",
+    "dependencies": [
+      "logging",
+      "VAE_16k",
+      "Literal",
+      ".bigvgan",
+      ".distributions",
+      ".vae",
+      "torchaudio",
+      "DiagonalGaussianDistribution",
+      "torch.nn",
+      "typing",
+      "torch",
+      "BigVGANVocoder"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/activations.py",
+    "dependencies": [
+      "nn",
+      "Parameter",
+      "comfy.model_management",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/alias_free_torch.py",
+    "dependencies": [
+      "comfy.model_management",
+      "torch.nn.functional",
+      "math",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/ldm/mmaudio/vae/distributions.py",
+    "dependencies": [
+      "torch",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/newbie.py",
+    "dependencies": [
+      "comfy.text_encoders.lumina2",
+      "comfy.model_management",
+      "comfy.text_encoders.jina_clip_2",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_old_config_xxl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/sd3_clip.py",
+    "dependencies": [
+      "logging",
+      "transformers",
+      "sd1_clip",
+      "os",
+      "comfy",
+      "comfy.model_management",
+      "sdxl_clip",
+      "comfy.utils",
+      "comfy.text_encoders.t5",
+      "T5TokenizerFast",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/spiece_tokenizer.py",
+    "dependencies": [
+      "sentencepiece",
+      "os",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/flux.py",
+    "dependencies": [
+      "comfy.text_encoders.sd3_clip",
+      "transformers",
+      "os",
+      "comfy.text_encoders.llama",
+      "torch",
+      "comfy",
+      "transformers.models.pixtral.convert_pixtral_weights_to_hf",
+      "comfy.model_management",
+      "base64",
+      "MistralConverter",
+      "json",
+      "transformers.integrations.mistral",
+      "comfy.text_encoders.t5",
+      "T5TokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/kandinsky5.py",
+    "dependencies": [
+      ".llama",
+      "comfy",
+      "QwenImageTokenizer",
+      "Qwen25_7BVLI",
+      ".qwen_image",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/ovis.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "Qwen2Tokenizer",
+      "comfy.text_encoders.llama",
+      "torch",
+      "comfy",
+      "numbers",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_config_base.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/byt5_config_small_glyph.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5.py",
+    "dependencies": [
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "optimized_attention_for_device",
+      "math",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/wan.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "os",
+      "comfy",
+      ".spiece_tokenizer",
+      "comfy.text_encoders.t5",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hydit.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "BertModel",
+      "transformers",
+      "os",
+      "torch",
+      "comfy",
+      ".spiece_tokenizer",
+      ".bert",
+      "comfy.text_encoders.t5",
+      "sd1_clip",
+      "BertTokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/lumina2.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "comfy.text_encoders.llama",
+      ".spiece_tokenizer",
+      "comfy",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/long_clipl.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/aura_t5.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "os",
+      "comfy",
+      ".spiece_tokenizer",
+      "comfy.text_encoders.t5",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/qwen_vl.py",
+    "dependencies": [
+      "Optional",
+      "optimized_attention_for_device",
+      "comfy.ldm.modules.attention",
+      "torch.nn.functional",
+      "math",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hydit_clip.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/lalelugen2.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "Qwen2Tokenizer",
+      "comfy.text_encoders.llama",
+      "comfy",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/sd2_clip_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/pixart_t5.py",
+    "dependencies": [
+      "comfy.text_encoders.sd3_clip",
+      "transformers",
+      "os",
+      "T5TokenizerFast",
+      "comfy",
+      "comfy.sd1_clip",
+      "comfy.text_encoders.t5",
+      "gen_empty_tokens",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/sa_t5.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "comfy",
+      "comfy.text_encoders.t5",
+      "T5TokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/jina_clip_2.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "comfy.ops",
+      "sd1_clip",
+      "dataclasses",
+      "nn",
+      "dataclass",
+      "comfy",
+      ".spiece_tokenizer",
+      "comfy.model_management",
+      "functional",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/mt5_config_xl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/lt.py",
+    "dependencies": [
+      "SPieceTokenizer",
+      "comfy.text_encoders.genmo",
+      "transformers",
+      "os",
+      "torch",
+      "comfy",
+      ".spiece_tokenizer",
+      "comfy.ldm.lightricks.embeddings_connector",
+      "Embeddings1DConnector",
+      "comfy.utils",
+      "T5TokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hunyuan_image.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "comfy.text_encoders.llama",
+      "comfy",
+      "QwenImageTokenizer",
+      "re",
+      ".qwen_image",
+      "ByT5Tokenizer",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/sd2_clip.py",
+    "dependencies": [
+      "comfy",
+      "os",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/umt5_config_xxl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hidream.py",
+    "dependencies": [
+      "logging",
+      "hunyuan_video",
+      "torch",
+      "sd3_clip",
+      "comfy",
+      "comfy.model_management",
+      "sdxl_clip",
+      ".",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/ace.py",
+    "dependencies": [
+      "logging",
+      "SPieceTokenizer",
+      "os",
+      ".ace_text_cleaners",
+      "torch",
+      "comfy",
+      ".spiece_tokenizer",
+      "Tokenizer",
+      "re",
+      "multilingual_cleaners",
+      "tokenizers",
+      "comfy.text_encoders.t5",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/llama.py",
+    "dependencies": [
+      "dataclasses",
+      "Optional",
+      "optimized_attention_for_device",
+      "comfy.clip_model",
+      "dataclass",
+      "comfy.ldm.modules.attention",
+      "comfy.model_management",
+      "qwen_vl",
+      ".",
+      "math",
+      "comfy.ldm.common_dit",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/ace_text_cleaners.py",
+    "dependencies": [
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/cosmos.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "comfy",
+      "comfy.text_encoders.t5",
+      "T5TokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_pile_config_xl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/qwen_image.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "Qwen2Tokenizer",
+      "comfy.text_encoders.llama",
+      "torch",
+      "comfy",
+      "numbers",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/genmo.py",
+    "dependencies": [
+      "comfy.text_encoders.sd3_clip",
+      "transformers",
+      "os",
+      "comfy",
+      "T5TokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/z_image.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "Qwen2Tokenizer",
+      "comfy.text_encoders.llama",
+      "comfy",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_config_xxl.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/bert.py",
+    "dependencies": [
+      "comfy.ldm.modules.attention",
+      "comfy.ops",
+      "torch",
+      "optimized_attention_for_device"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/umt5_config_base.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hunyuan_video.py",
+    "dependencies": [
+      "transformers",
+      "os",
+      "comfy.text_encoders.llama",
+      "torch",
+      "comfy",
+      "comfy.model_management",
+      "numbers",
+      "HunyuanImageTokenizer",
+      "comfy.utils",
+      ".hunyuan_image",
+      "LlamaTokenizerFast",
+      "sd1_clip"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/byt5_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/byt5_tokenizer/added_tokens.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/byt5_tokenizer/special_tokens_map.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_tokenizer/tokenizer.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/t5_tokenizer/special_tokens_map.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/qwen25_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/qwen25_tokenizer/merges.txt",
+    "dependencies": [
+      "_s",
+      "ance",
+      "ed",
+      "_R",
+      "ing",
+      "er",
+      "Default",
+      "Model",
+      "s",
+      "e",
+      "ant"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/qwen25_tokenizer/vocab.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hydit_clip_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hydit_clip_tokenizer/vocab.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/hydit_clip_tokenizer/special_tokens_map.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/llama_tokenizer/tokenizer_config.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/llama_tokenizer/tokenizer.json",
+    "dependencies": [
+      "ance",
+      "ed",
+      "ing",
+      "er",
+      "Default",
+      "antly",
+      "antes",
+      "s",
+      "ante",
+      "e",
+      "ant"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/text_encoders/ace_lyrics_tokenizer/vocab.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/cldm/dit_embedder.py",
+    "dependencies": [
+      "comfy.ldm.modules.diffusionmodules.mmdit",
+      "DismantledBlock",
+      "List",
+      "Tensor",
+      "torch.nn",
+      "math",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/cldm/cldm.py",
+    "dependencies": [
+      "..ldm.modules.diffusionmodules.openaimodel",
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "..ldm.modules.attention",
+      "..ldm.util",
+      "SpatialTransformer",
+      "UNION_CONTROLNET_TYPES",
+      "omegaconf.listconfig",
+      "..ldm.modules.diffusionmodules.util",
+      "collections",
+      "UNetModel",
+      "OrderedDict",
+      "optimized_attention",
+      "ListConfig",
+      "torch.nn",
+      ".control_types",
+      "torch",
+      "exists"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/cldm/control_types.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/cldm/mmdit.py",
+    "dependencies": [
+      "typing",
+      "Optional",
+      "torch",
+      "comfy.ldm.modules.diffusionmodules.mmdit"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/taesd/taesd.py",
+    "dependencies": [
+      "comfy.utils",
+      "comfy.ops",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/taesd/taehv.py",
+    "dependencies": [
+      "comfy.ops",
+      "tqdm",
+      "tqdm.auto",
+      "torch.nn.functional",
+      "collections",
+      "namedtuple",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/audio_encoders/whisper.py",
+    "dependencies": [
+      "Optional",
+      "comfy.ops",
+      "comfy.ldm.modules.attention",
+      "torch.nn.functional",
+      "optimized_attention_masked",
+      "torchaudio",
+      "torch.nn",
+      "torch",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/audio_encoders/audio_encoders.py",
+    "dependencies": [
+      "logging",
+      "comfy.ops",
+      "Wav2Vec2Model",
+      "WhisperLargeV3",
+      "comfy.model_management",
+      "torchaudio",
+      ".wav2vec2",
+      "comfy.utils",
+      ".whisper"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy/audio_encoders/wav2vec2.py",
+    "dependencies": [
+      "comfy.ldm.modules.attention",
+      "optimized_attention_masked",
+      "torch",
+      "torch.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_config/config_parser.py",
+    "dependencies": [
+      "config_parser",
+      "Optional",
+      "os",
+      "PydanticBaseSettingsSource",
+      "Path",
+      "pathlib",
+      "comfy_config.types",
+      "comfy_config",
+      "pydantic_settings",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "comfy_config/types.py",
+    "dependencies": [
+      "pydantic",
+      "List",
+      "BaseModel",
+      "BaseSettings",
+      "pydantic_settings",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "utils/json_util.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "utils/install_util.py",
+    "dependencies": [
+      "pathlib",
+      "sys",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "utils/extra_config.py",
+    "dependencies": [
+      "folder_paths",
+      "logging",
+      "os",
+      "yaml"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "output/_output_images_will_be_put_here",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
